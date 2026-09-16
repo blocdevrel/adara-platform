@@ -2,8 +2,8 @@
  * Shared layout primitives for every doc page.
  *
  * Usage:
- *   <DocPage title="Introduction" description="ADARA for developers">
- *     <Section title="What is ADARA?">
+ *   <DocPage title="Introduction" description="Adara for developers">
+ *     <Section title="What is Adara?">
  *       <p>...</p>
  *     </Section>
  *   </DocPage>

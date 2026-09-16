@@ -49,7 +49,7 @@ import { tapLight, notifySuccess } from "@/lib/haptics";
 import { getVoicePrefs } from "@/lib/voicePrefs";
 import { useTokens, textFontStyle } from "@/theme";
 import type { Turn } from "@/lib/api";
-import { FiArrowRight, FiMic, FiMicOff, FiPlus } from "react-icons/fi";
+import { FiArrowRight, FiMic, FiPlus } from "react-icons/fi";
 
 // ─── motion ──────────────────────────────────────────────────────────────────
 
@@ -106,8 +106,7 @@ function linesFromTurns(turns: Turn[]): LyricLine[] {
       });
     } else if (turn.status === "pending" || turn.status === "understood") {
       out.push({ id: `${turn.id}-w`, text: "", role: "waiting" });
-    }
-    if (turn.status === "failed" && turn.error) {
+    } else if (turn.status === "failed" && turn.error) {
       out.push({
         id: `${turn.id}-e`,
         text: turn.error.message,
@@ -321,23 +320,39 @@ function LyricStage({
   isTyping,
   isDark,
   waveActive,
+  liveTranscript,
 }: {
   turns: Turn[];
   isProcessing: boolean;
   isTyping: boolean;
   isDark: boolean;
   waveActive: boolean;
+  liveTranscript?: string | null;
 }) {
   const scrollRef = useRef<ScrollView>(null);
   const viewportH = useRef(0);
   const lineLayouts = useRef<Record<string, { y: number; height: number }>>({});
 
-  const lines = useMemo(() => linesFromTurns(turns), [turns]);
+  const lines = useMemo(() => {
+    const base = linesFromTurns(turns);
+    if (liveTranscript?.trim()) {
+      return [
+        ...base,
+        {
+          id: "live-asr",
+          role: "user" as const,
+          text: liveTranscript.trim(),
+          animateWords: false,
+        },
+      ];
+    }
+    return base;
+  }, [turns, liveTranscript]);
   const activeIndex = lines.length - 1;
 
   // Stay centered until the user actually types or a turn exists.
   // Auto-listen keeps the mic open — that alone must not dock the wave.
-  const engaged = isProcessing || isTyping || lines.length > 0;
+  const engaged = isProcessing || isTyping || lines.length > 0 || !!liveTranscript?.trim();
 
   const canvas = isDark ? "#000000" : "#FFFFFF";
   const fadeColors = useMemo(
@@ -469,59 +484,26 @@ export default function VoiceScreen() {
 
   const {
     loading, session, capabilities, turns,
-    micState, error,
-    startRecording, cancelRecording, sendText, sendAudioUri,
+    micState, liveTranscript, error,
+    startRecording, stopAndSend, cancelRecording, sendText, sendAudioUri,
   } = useVoiceSession({ locale: prefs.locale, language: prefs.speechLanguage });
 
   const [textDraft, setTextDraft] = useState("");
   const [historyOpen, setHistoryOpen] = useState(false);
-  const [muted, setMuted] = useState(false);
-  /** Always on — ChatGPT Voice continuous listen. */
-  const autoListen = true;
-  const autoRestartTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const prevMicState = useRef(micState);
-  const didAutoStart = useRef(false);
+  const micHeldRef = useRef(false);
 
-  // Auto-start listening once the session is ready (ChatGPT-style)
-  useEffect(() => {
-    if (
-      didAutoStart.current ||
-      !session ||
-      !capabilities?.transcribe ||
-      muted ||
-      micState !== "idle"
-    ) {
-      return;
-    }
-    didAutoStart.current = true;
-    void startRecording();
-  }, [session, capabilities, muted, micState, startRecording]);
-
-  const clearAutoRestart = useCallback(() => {
-    if (autoRestartTimer.current) {
-      clearTimeout(autoRestartTimer.current);
-      autoRestartTimer.current = null;
-    }
-  }, []);
-
-  const handleMuteToggle = useCallback(async () => {
+  const handleMicPressIn = useCallback(() => {
+    if (!session || !capabilities?.transcribe || micState !== "idle") return;
+    micHeldRef.current = true;
     tapLight();
-    const next = !muted;
-    setMuted(next);
-    if (next) {
-      clearAutoRestart();
-      if (micState === "recording") await cancelRecording();
-    } else if (
-      micState === "idle" &&
-      !!capabilities?.transcribe &&
-      !!session
-    ) {
-      void startRecording();
-    }
-  }, [
-    muted, micState, cancelRecording, clearAutoRestart,
-    capabilities?.transcribe, session, startRecording,
-  ]);
+    void startRecording();
+  }, [session, capabilities?.transcribe, micState, startRecording]);
+
+  const handleMicPressOut = useCallback(() => {
+    if (!micHeldRef.current) return;
+    micHeldRef.current = false;
+    void stopAndSend();
+  }, [stopAndSend]);
 
   const handleSendText = useCallback(async () => {
     const text = textDraft.trim();
@@ -530,34 +512,14 @@ export default function VoiceScreen() {
     tapLight();
     await sendText(text);
     notifySuccess();
-    // Back to listen mode after sending typed text
-    if (capabilities?.transcribe) {
-      setMuted(false);
-    }
-  }, [textDraft, session, sendText, capabilities?.transcribe]);
+  }, [textDraft, session, sendText]);
 
-  /** ChatGPT-style: pause live listen while the user is composing text. */
-  const pauseListenForTyping = useCallback(async () => {
-    if (micState === "recording") {
-      await cancelRecording();
+  const handleDraftChange = useCallback((next: string) => {
+    setTextDraft(next);
+    if (next.trim().length > 0 && micState === "recording") {
+      void cancelRecording();
     }
-    if (!muted) setMuted(true);
-  }, [micState, cancelRecording, muted]);
-
-  const handleDraftChange = useCallback(
-    (next: string) => {
-      const wasEmpty = textDraft.trim().length === 0;
-      const nowHasText = next.trim().length > 0;
-      setTextDraft(next);
-      if (wasEmpty && nowHasText) {
-        void pauseListenForTyping();
-      } else if (!wasEmpty && !nowHasText && capabilities?.transcribe) {
-        // Cleared the field — return to listen mode
-        setMuted(false);
-      }
-    },
-    [textDraft, pauseListenForTyping, capabilities?.transcribe],
-  );
+  }, [micState, cancelRecording]);
 
   const handleAudioUpload = useCallback(async () => {
     if (!session || micState === "processing") return;
@@ -583,31 +545,6 @@ export default function VoiceScreen() {
     }
   }, [session, micState, sendAudioUri]);
 
-  // After each reply, reopen the mic (continuous)
-  useEffect(() => {
-    const wasProcessing = prevMicState.current === "processing";
-    prevMicState.current = micState;
-    clearAutoRestart();
-
-    if (
-      wasProcessing &&
-      micState === "idle" &&
-      autoListen &&
-      !muted &&
-      !!capabilities?.transcribe &&
-      !!session
-    ) {
-      autoRestartTimer.current = setTimeout(() => {
-        void startRecording();
-      }, 700);
-    }
-
-    return clearAutoRestart;
-  }, [
-    micState, autoListen, muted, capabilities?.transcribe,
-    session, startRecording, clearAutoRestart,
-  ]);
-
   const isDark = tokens.scheme === "dark";
   const isProcessing = micState === "processing";
   const isRecording = micState === "recording";
@@ -621,13 +558,13 @@ export default function VoiceScreen() {
     ? "Voice is offline — type your message below"
     : hasText
     ? "Ready to send — tap → or hit return"
-    : muted
-    ? "Mic muted — tap the mic to listen again"
     : isRecording
-    ? "Listening… tap the field to type instead"
+    ? `Hold to speak (${prefs.speechLanguage}) — release to send`
     : isProcessing
-    ? "Adara is thinking…"
-    : "Speak freely, or type below";
+    ? liveTranscript && liveTranscript !== "Transcribing…"
+      ? "Got it — thinking…"
+      : "Transcribing…"
+    : "Hold the mic to speak, or type below";
 
   return (
     <Screen edges={{ top: true, bottom: false }}>
@@ -662,7 +599,8 @@ export default function VoiceScreen() {
             isProcessing={isProcessing}
             isTyping={hasText}
             isDark={isDark}
-            waveActive={isRecording && !muted}
+            waveActive={isRecording}
+            liveTranscript={liveTranscript}
           />
         )}
 
@@ -751,8 +689,7 @@ export default function VoiceScreen() {
               value={textDraft}
               onChangeText={handleDraftChange}
               onFocus={() => {
-                // Switching to type mode — pause the live mic
-                if (!hasText && isRecording) void pauseListenForTyping();
+                if (isRecording) void cancelRecording();
               }}
               multiline
               returnKeyType="send"
@@ -778,11 +715,14 @@ export default function VoiceScreen() {
               }}
             >
               <Pressable
-                onPress={showSendAction ? handleSendText : handleMuteToggle}
+                onPress={showSendAction ? handleSendText : undefined}
+                onPressIn={showSendAction ? undefined : handleMicPressIn}
+                onPressOut={showSendAction ? undefined : handleMicPressOut}
                 disabled={
                   !session ||
                   isProcessing ||
-                  (showSendAction && !hasText)
+                  (showSendAction && !hasText) ||
+                  (!showSendAction && !capabilities?.transcribe)
                 }
                 hitSlop={4}
                 style={({ pressed }) => ({
@@ -790,19 +730,18 @@ export default function VoiceScreen() {
                   height: 40,
                   alignItems: "center",
                   justifyContent: "center",
-                  opacity: pressed ? 0.75 : 1,
+                  opacity: pressed || isRecording ? 0.75 : 1,
+                  transform: [{ scale: isRecording ? 1.08 : 1 }],
                 })}
                 accessibilityRole="button"
                 accessibilityLabel={
-                  showSendAction
-                    ? "Send"
-                    : muted
-                    ? "Unmute and start listening"
-                    : isRecording
-                    ? "Mute microphone"
-                    : "Start listening"
+                  showSendAction ? "Send" : "Hold to speak"
                 }
-                accessibilityState={showSendAction ? undefined : { selected: muted }}
+                accessibilityHint={
+                  showSendAction
+                    ? "Send your message"
+                    : "Press and hold to record, release to send"
+                }
               >
                 {isProcessing ? (
                   <ActivityIndicator size="small" color="#FFFFFF" />
@@ -815,7 +754,7 @@ export default function VoiceScreen() {
                   />
                 ) : (
                   <ReactIcon
-                    icon={muted ? FiMicOff : FiMic}
+                    icon={FiMic}
                     size={20}
                     strokeWidth={2.5}
                     color="#FFFFFF"

@@ -48,7 +48,13 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				hover: 'hsl(var(--hover))',
-				active: 'hsl(var(--active))'
+				active: 'hsl(var(--active))',
+				adara: {
+					orange: 'hsl(var(--adara-orange))',
+					'orange-light': 'hsl(var(--adara-orange-light))',
+					'orange-hover': 'hsl(var(--adara-orange-hover))',
+					'orange-active': 'hsl(var(--adara-orange-active))',
+				},
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',

@@ -3,15 +3,20 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Logo } from "@/components/client/Logo";
-import { useTheme } from "@/components/ThemeProvider";
+import { MintButton } from "@/components/client/MintButton";
+import { moreDropdownItems, navigationItems } from "@/components/client/nav";
 
-export function Header() {
-  const { resolvedTheme } = useTheme();
+type HeaderProps = {
+  variant?: "default" | "home";
+};
+
+export function Header({ variant = "default" }: HeaderProps) {
   const { pathname } = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMoreDropdownOpen, setIsMoreDropdownOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const isHome = variant === "home";
 
   useEffect(() => {
     setIsMenuOpen(false);
@@ -45,48 +50,41 @@ export function Header() {
     };
   }, [isMenuOpen]);
 
-  const navigationItems = [
-    { label: "Products", href: "/products" },
-    { label: "API", href: "/api" },
-    { label: "Docs", href: "/docs/introduction" },
-    { label: "Docs", href: "/documentation" },
-    { label: "About", href: "/about" },
-  ];
-
-  const moreDropdownItems = [
-    { label: "News", href: "/news" },
-    { label: "Customers", href: "/customers" },
-    { label: "Enterprise", href: "/enterprise" },
-    { label: "Government", href: "/government" },
-    { label: "Support", href: "/support" },
-    { label: "Learn", href: "/learn" },
-  ];
+  const onDark = isHome;
 
   const navLink = cn(
-    "text-[15px] font-normal transition-colors duration-150",
-    scrolled
-      ? "text-muted-foreground hover:text-foreground"
-      : "text-muted-foreground hover:text-foreground dark:text-white/80 dark:hover:text-white"
+    "text-[13px] font-medium uppercase tracking-[0.14em] transition-colors duration-150",
+    onDark
+      ? "text-white/70 hover:text-white"
+      : "text-muted-foreground hover:text-foreground"
   );
 
-  const mobileNavLink =
-    "block rounded-lg px-3 py-3 text-base text-muted-foreground transition hover:bg-accent hover:text-foreground";
+  const mobileNavLink = onDark
+    ? "block rounded-lg px-3 py-3 text-base text-white/80 transition hover:bg-white/5 hover:text-white"
+    : "block rounded-lg px-3 py-3 text-base text-muted-foreground transition hover:bg-accent hover:text-foreground";
 
   return (
     <header
       className={cn(
-        "fixed left-0 right-0 top-0 z-50 border-b bg-background transition-colors duration-200 safe-area-top",
-        scrolled ? "border-border/60" : "border-border/50"
+        "fixed left-0 right-0 top-0 z-50 transition-all duration-200 safe-area-top",
+        isHome
+          ? cn(
+              "border-b",
+              scrolled || isMenuOpen
+                ? "border-white/10 bg-[#0B0F0D]"
+                : "border-transparent bg-transparent"
+            )
+          : cn("border-b bg-background", scrolled ? "border-border/60" : "border-border/50")
       )}
     >
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between sm:h-[4.25rem]">
           <div className="flex min-w-0 items-center gap-8">
-            <Logo onDark={resolvedTheme === "dark"} className="relative z-10" />
+            <Logo onDark={onDark} className="relative z-10" />
 
             <nav className="hidden items-center gap-7 lg:flex">
               {navigationItems.map((item) => (
-                <Link key={item.label} to={item.href} className={navLink}>
+                <Link key={item.href} to={item.href} className={navLink}>
                   {item.label}
                 </Link>
               ))}
@@ -106,12 +104,24 @@ export function Header() {
                 </button>
 
                 {isMoreDropdownOpen && (
-                  <div className="absolute left-0 top-full z-50 mt-3 w-48 rounded-xl border border-border bg-card py-1.5 shadow-xl shadow-black/30">
+                  <div
+                    className={cn(
+                      "absolute left-0 top-full z-50 mt-3 w-48 rounded-xl border py-1.5 shadow-xl",
+                      onDark
+                        ? "border-white/10 bg-[#141816] shadow-black/40"
+                        : "border-border bg-card shadow-black/30"
+                    )}
+                  >
                     {moreDropdownItems.map((item) => (
                       <Link
                         key={item.label}
                         to={item.href}
-                        className="mx-1 flex items-center rounded-lg px-3 py-2.5 text-[15px] text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                        className={cn(
+                          "mx-1 flex items-center rounded-lg px-3 py-2.5 text-[15px] transition-colors",
+                          onDark
+                            ? "text-white/70 hover:bg-white/5 hover:text-white"
+                            : "text-muted-foreground hover:bg-accent hover:text-foreground"
+                        )}
                         onClick={() => setIsMoreDropdownOpen(false)}
                       >
                         {item.label}
@@ -123,24 +133,19 @@ export function Header() {
             </nav>
           </div>
 
-          <div className="hidden items-center gap-2 lg:flex">
+          <div className="hidden items-center gap-3 lg:flex">
             <Link
               to="/login"
               className={cn(
-                "inline-flex h-11 items-center justify-center rounded-full border px-5 text-[15px] font-medium transition-colors duration-150",
-                scrolled
-                  ? "border-border text-foreground hover:bg-accent"
-                  : "border-border text-foreground hover:bg-accent dark:border-white/25 dark:text-white dark:hover:border-white/40 dark:hover:bg-white/5"
+                "text-[13px] font-medium transition-colors",
+                onDark ? "text-white/70 hover:text-white" : "text-muted-foreground hover:text-foreground"
               )}
             >
               Sign in
             </Link>
-            <Link
-              to="/signup"
-              className="inline-flex h-11 items-center justify-center rounded-full bg-foreground px-5 text-[15px] font-medium text-background transition-colors duration-150 hover:bg-foreground/90"
-            >
-              Try ADARA
-            </Link>
+            <MintButton to="/signup" size="sm">
+              Try Adara
+            </MintButton>
           </div>
 
           <button
@@ -148,7 +153,7 @@ export function Header() {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className={cn(
               "inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg transition touch-manipulation lg:hidden",
-              scrolled ? "text-foreground hover:bg-accent" : "text-foreground hover:bg-accent dark:text-white dark:hover:bg-white/10"
+              onDark ? "text-white hover:bg-white/10" : "text-foreground hover:bg-accent"
             )}
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             aria-expanded={isMenuOpen}
@@ -160,16 +165,19 @@ export function Header() {
 
       <div
         className={cn(
-          "border-t border-border bg-card transition-all duration-300 lg:hidden",
+          "lg:hidden",
           isMenuOpen
-            ? "max-h-[calc(100dvh-4rem)] overflow-y-auto opacity-100"
-            : "max-h-0 overflow-hidden opacity-0"
+            ? cn(
+                "h-[calc(100dvh-4rem-env(safe-area-inset-top))] overflow-y-auto border-t sm:h-[calc(100dvh-4.25rem-env(safe-area-inset-top))]",
+                onDark ? "border-white/10 bg-[#0B0F0D]" : "border-border bg-card"
+              )
+            : "hidden"
         )}
       >
         <nav className="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-4 safe-area-bottom sm:px-6">
           {navigationItems.map((item) => (
             <Link
-              key={item.label}
+              key={item.href}
               to={item.href}
               className={mobileNavLink}
               onClick={() => setIsMenuOpen(false)}
@@ -177,8 +185,13 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <div className="mt-2 border-t border-border pt-2">
-            <p className="px-3 py-1.5 font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
+          <div className={cn("mt-2 border-t pt-2", onDark ? "border-white/10" : "border-border")}>
+            <p
+              className={cn(
+                "px-3 py-1.5 font-mono text-xs uppercase tracking-[0.14em]",
+                onDark ? "text-white/40" : "text-muted-foreground"
+              )}
+            >
               Resources
             </p>
             {moreDropdownItems.map((item) => (
@@ -192,21 +205,22 @@ export function Header() {
               </Link>
             ))}
           </div>
-          <div className="mt-2 flex flex-col gap-2 border-t border-border pt-3">
+          <div className={cn("mt-2 flex flex-col gap-2 border-t pt-3", onDark ? "border-white/10" : "border-border")}>
             <Link
               to="/login"
-              className="inline-flex h-12 items-center justify-center rounded-full border border-border px-4 text-base font-medium text-foreground transition hover:bg-accent"
+              className={cn(
+                "inline-flex h-12 items-center justify-center rounded-full border px-4 text-base font-medium transition",
+                onDark
+                  ? "border-white/20 text-white hover:bg-white/5"
+                  : "border-border text-foreground hover:bg-accent"
+              )}
               onClick={() => setIsMenuOpen(false)}
             >
               Sign in
             </Link>
-            <Link
-              to="/signup"
-              className="inline-flex h-12 items-center justify-center rounded-full bg-foreground px-4 text-base font-medium text-background transition hover:bg-foreground/90"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Try ADARA
-            </Link>
+            <MintButton to="/signup" size="lg" className="w-full" onClick={() => setIsMenuOpen(false)}>
+              Try Adara
+            </MintButton>
           </div>
         </nav>
       </div>

@@ -18,7 +18,7 @@ export default function Signup() {
 
   return (
     <AuthShell
-      title="Build with ADARA"
+      title="Build with Adara"
       description="Pilot accounts aren’t open yet. Click a field to see what’s coming, then join the waitlist."
       alternateLink={{
         prompt: "Already exploring?",
@@ -27,7 +27,7 @@ export default function Signup() {
       }}
       legal={
         <>
-          By continuing, you agree to ADARA&apos;s{" "}
+          By continuing, you agree to Adara&apos;s{" "}
           <Link to="/terms" className="text-foreground/80 underline-offset-4 hover:text-foreground hover:underline">
             Terms
           </Link>{" "}

@@ -4,7 +4,7 @@ export default function SdkPython() {
   return (
     <DocPage
       title="Python SDK"
-      description="Call ADARA from Python 3.11+ without writing HTTP yourself."
+      description="Call Adara from Python 3.11+ without writing HTTP yourself."
       prev={{ label: "Live Events (SSE)", to: "/docs/agent-events" }}
       next={{ label: "JavaScript SDK", to: "/docs/sdk-javascript" }}
     >

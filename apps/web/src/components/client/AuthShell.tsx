@@ -96,7 +96,7 @@ export function AuthShell({
             </Link>
           ))}
         </nav>
-        <p className="mt-8 text-center text-xs text-muted-foreground/70">ADARA</p>
+        <p className="mt-8 text-center text-xs text-muted-foreground/70">Adara</p>
       </footer>
     </div>
   );

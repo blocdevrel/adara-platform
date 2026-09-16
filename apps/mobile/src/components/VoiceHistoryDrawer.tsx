@@ -14,7 +14,8 @@ import Reanimated, {
 } from "react-native-reanimated";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-import { Text, Waveform } from "@/components";
+import { Text } from "@/components/Text";
+import { Waveform } from "@/components/Waveform";
 import { tapLight } from "@/lib/haptics";
 import { sessionHistory } from "@/lib/sessionHistory";
 import { useTokens } from "@/theme";

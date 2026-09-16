@@ -8,9 +8,9 @@ export default function Introduction() {
       description="African speech, language, and context — as APIs you can call from your backend."
       next={{ label: "What's New", to: "/docs/whats-new" }}
     >
-      <Section title="What ADARA does">
+      <Section title="What Adara does">
         <p>
-          ADARA turns African-language speech and text into something your app can act on:
+          Adara turns African-language speech and text into something your app can act on:
           a transcript, spoken audio, a language code, and local meaning (what <IC>momo</IC> or{" "}
           <IC>NEPA</IC> refers to here).
         </p>

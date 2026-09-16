@@ -10,7 +10,7 @@ export default function ContextCoverage() {
     >
       <Section title="Endpoint">
         <Code lang="text">{`GET /v1/context/coverage`}</Code>
-        <p>No request body. Returns what is actually installed — not what ADARA targets globally.</p>
+        <p>No request body. Returns what is actually installed — not what Adara targets globally.</p>
       </Section>
 
       <Section title="Current packs">

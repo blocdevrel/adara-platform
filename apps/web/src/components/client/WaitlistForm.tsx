@@ -70,7 +70,7 @@ export function WaitlistForm({
       />
       <button
         type="submit"
-        className="interactive-scale h-12 w-full rounded-full bg-foreground text-sm font-medium text-background transition-colors hover:bg-foreground/90 dark:bg-white dark:text-neutral-900 dark:hover:bg-white/90"
+        className="h-12 w-full rounded-full bg-primary text-sm font-medium text-primary-foreground transition-colors hover:bg-adara-orange-hover"
       >
         {submitLabel}
       </button>

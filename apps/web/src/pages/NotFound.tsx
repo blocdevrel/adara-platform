@@ -14,7 +14,7 @@ export default function NotFound() {
           Page not found
         </h1>
         <p className="mt-3 max-w-sm text-muted-foreground">
-          That URL isn’t on ADARA. Head home or read the latest from the lab.
+          That URL isn’t on Adara. Head home or read the latest from the lab.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Link

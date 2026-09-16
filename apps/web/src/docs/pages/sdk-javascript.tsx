@@ -4,7 +4,7 @@ export default function SdkJavascript() {
   return (
     <DocPage
       title="JavaScript SDK"
-      description="Call ADARA from Node.js 18+. Server-side only."
+      description="Call Adara from Node.js 18+. Server-side only."
       prev={{ label: "Python SDK", to: "/docs/sdk-python" }}
       next={{ label: "Offline mode", to: "/docs/sdk-local" }}
     >
@@ -22,7 +22,7 @@ console.log(meaning.language, meaning.concepts)`}
         </Code>
         <Callout variant="caution">
           Do not use this SDK in the browser with a live key. Put a small endpoint on your own
-          server and call ADARA from there.
+          server and call Adara from there.
         </Callout>
       </Section>
 

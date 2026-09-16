@@ -1,8 +1,5 @@
 /**
- * The full mic → session → turn → reply loop in one hook.
- *
- * Mic state machine:
- *   idle → recording → processing → idle
+ * Push-to-talk: hold mic → voice-agent ASR → understand + LLM reply.
  */
 
 import {
@@ -18,9 +15,9 @@ import {
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { agent, api, type Capabilities, type Session, type Turn } from "@/lib/api";
+import { doorTranscribe } from "@/lib/doorTranscribe";
 import { getVoicePrefs, sessionOptionsFromPrefs } from "@/lib/voicePrefs";
 
-/** MMS decodes WAV/PCM. Expo's default HIGH_QUALITY is AAC/m4a, which Door returns as HTTP 500. */
 const ASR_RECORDING = {
   ...RecordingPresets.HIGH_QUALITY,
   extension: ".wav",
@@ -42,6 +39,8 @@ const ASR_RECORDING = {
   },
 };
 
+const MIN_RECORD_MS = 400;
+
 export type MicState = "idle" | "recording" | "processing";
 
 export type VoiceSessionState = {
@@ -50,13 +49,12 @@ export type VoiceSessionState = {
   capabilities: Capabilities | null;
   turns: Turn[];
   micState: MicState;
+  liveTranscript: string | null;
   error: string | null;
   startRecording: () => Promise<void>;
   stopAndSend: () => Promise<void>;
-  /** Halt recording without uploading — used for mute / discard. */
   cancelRecording: () => Promise<void>;
   sendText: (text: string) => Promise<void>;
-  /** Upload a picked audio file as a turn. */
   sendAudioUri: (uri: string, options?: { name?: string; type?: string }) => Promise<void>;
   speakReply: (text: string, language?: string | null) => Promise<void>;
 };
@@ -70,12 +68,57 @@ export function useVoiceSession(options: {
   const [capabilities, setCapabilities] = useState<Capabilities | null>(null);
   const [turns, setTurns] = useState<Turn[]>([]);
   const [micState, setMicState] = useState<MicState>("idle");
+  const [liveTranscript, setLiveTranscript] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const recorder = useAudioRecorder(ASR_RECORDING);
+
   const sessionIdRef = useRef<string | null>(null);
   const unsubscribeRef = useRef<(() => void) | null>(null);
   const playerRef = useRef<AudioPlayer | null>(null);
+  const speechLangRef = useRef<string>("tw");
+  const micStateRef = useRef<MicState>("idle");
+  const stoppingRef = useRef(false);
+  const holdActiveRef = useRef(false);
+  const recordingStartedAt = useRef<number | null>(null);
+
+  useEffect(() => {
+    micStateRef.current = micState;
+  }, [micState]);
+
+  const upsertTurn = useCallback((turn: Turn) => {
+    setTurns((prev) => {
+      const idx = prev.findIndex((t) => t.id === turn.id);
+      if (idx === -1) return [...prev, turn];
+      const next = [...prev];
+      next[idx] = turn;
+      return next;
+    });
+  }, []);
+
+  const speakReply = useCallback(
+    async (text: string, language?: string | null) => {
+      if (!capabilities?.synthesize) return;
+      if (!text.trim()) return;
+
+      try {
+        playerRef.current?.remove();
+        playerRef.current = null;
+
+        const result = await api.synthesize(text, language ? { language } : {});
+        if (!result.ok) return;
+
+        const player = createAudioPlayer({
+          uri: `data:audio/wav;base64,${result.data.audio_base64}`,
+        });
+        playerRef.current = player;
+        player.play();
+      } catch {
+        // Playback errors are non-fatal.
+      }
+    },
+    [capabilities],
+  );
 
   useEffect(() => {
     let cancelled = false;
@@ -97,10 +140,11 @@ export function useVoiceSession(options: {
       });
 
       const prefs = getVoicePrefs();
+      speechLangRef.current = options.language ?? prefs.speechLanguage;
       const result = await agent.createSession({
         ...sessionOptionsFromPrefs({
           locale: options.locale ?? prefs.locale,
-          speechLanguage: options.language ?? prefs.speechLanguage,
+          speechLanguage: speechLangRef.current,
         }),
       });
 
@@ -113,6 +157,11 @@ export function useVoiceSession(options: {
       }
 
       const { session: s, capabilities: caps } = result.data;
+      // ASR runs voice-agent → Door; enable mic when understand works.
+      if (caps.understand) {
+        caps.transcribe = true;
+        delete caps.reasons.transcribe;
+      }
       setSession(s);
       setCapabilities(caps);
       setTurns(s.turns ?? []);
@@ -120,121 +169,119 @@ export function useVoiceSession(options: {
       setLoading(false);
 
       unsubscribeRef.current = agent.subscribe(s.id, (turn) => {
-        setTurns((prev) => {
-          const idx = prev.findIndex((t) => t.id === turn.id);
-          if (idx === -1) return [...prev, turn];
-          const next = [...prev];
-          next[idx] = turn;
-          return next;
-        });
+        upsertTurn(turn);
         if (turn.status === "replied" && turn.reply?.text) {
           const ttsLang =
             (turn.reply.speech as { language?: string } | undefined)?.language ??
             turn.meaning?.language ??
             null;
-          speakReply(turn.reply.text, ttsLang);
+          void speakReply(turn.reply.text, ttsLang);
         }
       });
     }
 
-    init();
+    void init();
 
     return () => {
       cancelled = true;
       unsubscribeRef.current?.();
       if (sessionIdRef.current) {
-        agent.endSession(sessionIdRef.current);
+        void agent.endSession(sessionIdRef.current);
       }
       playerRef.current?.remove();
       playerRef.current = null;
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const speakReply = useCallback(
-    async (text: string, language?: string | null) => {
-      if (!capabilities?.synthesize) return;
-      if (!text.trim()) return;
-
-      try {
-        playerRef.current?.remove();
-        playerRef.current = null;
-
-        const result = await api.synthesize(text, language ? { language } : {});
-        if (!result.ok) return;
-
-        const player = createAudioPlayer({
-          uri: `data:audio/wav;base64,${result.data.audio_base64}`,
-        });
-        playerRef.current = player;
-        player.play();
-      } catch {
-        // Playback errors are non-fatal — the text reply is already displayed.
-      }
-    },
-    [capabilities],
-  );
-
   const startRecording = useCallback(async () => {
-    if (micState !== "idle") return;
+    if (micStateRef.current !== "idle") return;
     if (!sessionIdRef.current) return;
 
+    holdActiveRef.current = true;
+
     try {
+      setLiveTranscript(null);
+      setError(null);
+      recordingStartedAt.current = Date.now();
+      stoppingRef.current = false;
+
+      const prefs = getVoicePrefs();
+      speechLangRef.current = options.language ?? prefs.speechLanguage;
+
       await recorder.prepareToRecordAsync();
+      if (!holdActiveRef.current) return;
+
       recorder.record();
+      if (!holdActiveRef.current) {
+        await recorder.stop();
+        return;
+      }
       setMicState("recording");
     } catch (err) {
       setError(`Could not start recording: ${err instanceof Error ? err.message : String(err)}`);
     }
-  }, [micState, recorder]);
+  }, [recorder, options.language]);
 
   const stopAndSend = useCallback(async () => {
-    if (micState !== "recording") return;
+    holdActiveRef.current = false;
+    if (micStateRef.current !== "recording" || stoppingRef.current) return;
     const sid = sessionIdRef.current;
     if (!sid) return;
 
+    stoppingRef.current = true;
     setMicState("processing");
+    setLiveTranscript("Transcribing…");
 
     try {
+      const recordMs = recordingStartedAt.current
+        ? Date.now() - recordingStartedAt.current
+        : 0;
+
       await recorder.stop();
       const uri = recorder.uri;
-      if (!uri) {
-        setMicState("idle");
+
+      if (!uri || recordMs < MIN_RECORD_MS) {
+        setLiveTranscript(null);
         return;
       }
 
-      const isWav = uri.toLowerCase().includes(".wav");
-      const result = await agent.sendAudio(sid, uri, {
-        name: isWav ? "turn.wav" : "turn.m4a",
-        type: isWav ? "audio/wav" : "audio/m4a",
+      const asr = await doorTranscribe(uri, {
+        language: speechLangRef.current,
       });
 
+      if (!asr.ok) {
+        setError(asr.message);
+        return;
+      }
+
+      setLiveTranscript(asr.data.transcript);
+      const result = await agent.sendTranscript(sid, asr.data.transcript);
       if (result.ok) {
-        setTurns((prev) => {
-          const { turn } = result.data;
-          const idx = prev.findIndex((t) => t.id === turn.id);
-          if (idx === -1) return [...prev, turn];
-          const next = [...prev];
-          next[idx] = turn;
-          return next;
-        });
+        upsertTurn(result.data.turn);
       } else {
         setError(result.message);
       }
     } finally {
+      stoppingRef.current = false;
       setMicState("idle");
+      setTimeout(() => setLiveTranscript(null), 1500);
     }
-  }, [micState, recorder]);
+  }, [recorder, upsertTurn]);
 
   const cancelRecording = useCallback(async () => {
-    if (micState !== "recording") return;
+    holdActiveRef.current = false;
+    if (micStateRef.current !== "recording") return;
+    stoppingRef.current = true;
     try {
       await recorder.stop();
     } catch {
-      // Already stopped — still return to idle.
+      // Already stopped.
     } finally {
+      setLiveTranscript(null);
+      stoppingRef.current = false;
       setMicState("idle");
     }
-  }, [micState, recorder]);
+  }, [recorder]);
 
   const sendText = useCallback(async (text: string) => {
     const sid = sessionIdRef.current;
@@ -244,19 +291,9 @@ export function useVoiceSession(options: {
     const result = await agent.sendText(sid, text);
     setMicState("idle");
 
-    if (result.ok) {
-      setTurns((prev) => {
-        const { turn } = result.data;
-        const idx = prev.findIndex((t) => t.id === turn.id);
-        if (idx === -1) return [...prev, turn];
-        const next = [...prev];
-        next[idx] = turn;
-        return next;
-      });
-    } else {
-      setError(result.message);
-    }
-  }, []);
+    if (result.ok) upsertTurn(result.data.turn);
+    else setError(result.message);
+  }, [upsertTurn]);
 
   const sendAudioUri = useCallback(async (
     uri: string,
@@ -266,27 +303,31 @@ export function useVoiceSession(options: {
     if (!sid || !uri) return;
 
     setMicState("processing");
+    setLiveTranscript("Transcribing…");
+
     const lower = (options.name ?? uri).toLowerCase();
     const isWav = lower.endsWith(".wav") || lower.includes(".wav");
-    const result = await agent.sendAudio(sid, uri, {
+    const asr = await doorTranscribe(uri, {
+      language: speechLangRef.current,
       name: options.name ?? (isWav ? "upload.wav" : "upload.m4a"),
       type: options.type ?? (isWav ? "audio/wav" : "audio/m4a"),
     });
+
+    if (!asr.ok) {
+      setError(asr.message);
+      setMicState("idle");
+      return;
+    }
+
+    setLiveTranscript(asr.data.transcript);
+    const result = await agent.sendTranscript(sid, asr.data.transcript);
     setMicState("idle");
 
-    if (result.ok) {
-      setTurns((prev) => {
-        const { turn } = result.data;
-        const idx = prev.findIndex((t) => t.id === turn.id);
-        if (idx === -1) return [...prev, turn];
-        const next = [...prev];
-        next[idx] = turn;
-        return next;
-      });
-    } else {
-      setError(result.message);
-    }
-  }, []);
+    if (result.ok) upsertTurn(result.data.turn);
+    else setError(result.message);
+
+    setTimeout(() => setLiveTranscript(null), 1500);
+  }, [upsertTurn]);
 
   return {
     loading,
@@ -294,6 +335,7 @@ export function useVoiceSession(options: {
     capabilities,
     turns,
     micState,
+    liveTranscript,
     error,
     startRecording,
     stopAndSend,

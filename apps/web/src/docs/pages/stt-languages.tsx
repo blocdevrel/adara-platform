@@ -53,7 +53,7 @@ export default function SttLanguages() {
 
       <Section title="Accent coverage">
         <p>
-          African languages exist on a spectrum of accents, dialects, and registers. ADARA
+          African languages exist on a spectrum of accents, dialects, and registers. Adara
           evaluates transcription accuracy against recordings from actual speakers in each region,
           not from studio recordings of formal speech.
         </p>

@@ -56,15 +56,16 @@ class VoiceAgent:
         )
 
     # -- entry points --------------------------------------------------------------------------
-    def submit_text(self, session: Session, text: str) -> Turn:
-        """A typed turn, or one whose audio the client transcribed itself."""
+    def submit_text(self, session: Session, text: str, *,
+                    transcript_source: str = 'typed') -> Turn:
+        """A typed turn, or one the client transcribed via Door ASR (`transcript_source='asr'`)."""
         if not text or not text.strip():
             turn = self._store.add_turn(session, role='user', input_kind='text', text=None)
             return self._fail(session, turn, ERROR_EMPTY_INPUT,
                               'No text was supplied for this turn.')
 
         turn = self._store.add_turn(session, role='user', input_kind='text',
-                                    text=text.strip(), transcript_source='typed')
+                                    text=text.strip(), transcript_source=transcript_source)
         self._emit(session, 'turn.created', turn)
         return self._understand_and_reply(session, turn)
 
@@ -121,6 +122,10 @@ class VoiceAgent:
             logger.warning('Understanding failed for turn %s: %s', turn.id, error)
             return self._fail(session, turn, ERROR_UNDERSTANDING_FAILED, str(error))
 
+        if turn.transcript_source == 'asr' and turn.text:
+            meaning['asr_transcript'] = turn.text
+            meaning['transcript_source'] = 'asr'
+
         turn.meaning = meaning
         turn.status = 'understood'
         # Only a detection settles the session's language; an abstention leaves the previous one
@@ -130,6 +135,12 @@ class VoiceAgent:
         self._emit(session, 'turn.understood', turn)
 
         reply = self._policy.reply(meaning, history=session.turns)
+        if reply.interpreted_transcript:
+            turn.text = reply.interpreted_transcript
+            meaning['transcript'] = reply.interpreted_transcript
+            if reply.meaning_gloss:
+                meaning['meaning_gloss'] = reply.meaning_gloss
+            turn.meaning = meaning
         # Stamp the TTS language the client should request — never leave it to chance.
         speech = dict(reply.speech or {})
         speech.setdefault(

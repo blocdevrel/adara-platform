@@ -4,13 +4,13 @@ export default function Provisional() {
   return (
     <DocPage
       title="Provisional & Warnings"
-      description="ADARA tells you explicitly when to distrust a result. Never drop these fields."
+      description="Adara tells you explicitly when to distrust a result. Never drop these fields."
       prev={{ label: "Code-switching", to: "/docs/codeswitch" }}
       next={{ label: "STT Overview", to: "/docs/stt-overview" }}
     >
       <Section title="The provisional flag">
         <p>
-          Every knowledge pack shipped with ADARA today is <IC>provisional: true</IC>. That means
+          Every knowledge pack shipped with Adara today is <IC>provisional: true</IC>. That means
           the glosses, concepts, and local reference resolutions were assembled from secondary
           sources — dictionaries, community corpora, public documentation — and have not been
           reviewed by a fluent speaker of the language.

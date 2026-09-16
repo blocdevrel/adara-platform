@@ -10,9 +10,9 @@ export default function News() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "News — ADARA";
+    document.title = "News — Adara";
     return () => {
-      document.title = "ADARA — Data and tools that make AI understand Africa";
+      document.title = "Adara — Data and tools that make AI understand Africa";
     };
   }, []);
 
@@ -32,7 +32,7 @@ export default function News() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="max-w-2xl">
               <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground">
-                ADARA
+                Adara
               </p>
               <h1 className="mt-3 text-[clamp(2rem,4vw,3rem)] font-normal leading-[1.08] tracking-[-0.035em] text-foreground">
                 Latest news

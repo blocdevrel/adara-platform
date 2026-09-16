@@ -10,12 +10,12 @@ export default function UnderstandOverview() {
     >
       <Section title="What Understand does">
         <p>
-          <IC>POST /v1/understand</IC> is ADARA's primary endpoint. It accepts text or audio and
+          <IC>POST /v1/understand</IC> is Adara's primary endpoint. It accepts text or audio and
           returns a composed <em>Meaning</em> object — language, entities, concepts, and local
           context — in a single round-trip.
         </p>
         <p>
-          This is the endpoint that differentiates ADARA from a plain transcription service. You
+          This is the endpoint that differentiates Adara from a plain transcription service. You
           do not need to call language detection, then NER, then context separately. One call
           handles the pipeline.
         </p>

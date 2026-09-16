@@ -19,7 +19,7 @@ const PAGE_COPY: Record<string, { name: string; description: string }> = {
   },
   "/about": {
     name: "About",
-    description: "The full story of ADARA is coming. Stay close for the launch.",
+    description: "The full story of Adara is coming. Stay close for the launch.",
   },
   "/enterprise": {
     name: "Enterprise",
@@ -51,13 +51,13 @@ export function ComingSoon() {
   const { pathname } = useLocation();
   const copy = PAGE_COPY[pathname] ?? {
     name: "This page",
-    description: "This part of ADARA isn’t live yet. Join the waitlist and we’ll email you.",
+    description: "This part of Adara isn’t live yet. Join the waitlist and we’ll email you.",
   };
 
   useEffect(() => {
-    document.title = `${copy.name} — Coming soon — ADARA`;
+    document.title = `${copy.name} — Coming soon — Adara`;
     return () => {
-      document.title = "ADARA — Data and tools that make AI understand Africa";
+      document.title = "Adara — Data and tools that make AI understand Africa";
     };
   }, [copy.name]);
 

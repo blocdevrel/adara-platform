@@ -1,45 +1,39 @@
-"""OpenAIChatPolicy — the opt-in AgentPolicy that calls a real model.
+"""GroundedLLMPolicy — ASR interpretation + culturally grounded replies.
 
-No real network calls here: `urllib.request.urlopen` is monkeypatched so the suite stays offline
-and free, matching how the rest of this service is tested (see conftest.py's FakeGateway).
+No real network calls: ``grounded_reply`` is monkeypatched so the suite stays offline.
 """
 
 from __future__ import annotations
 
-import json
+from unittest.mock import patch
 
 import pytest
 
-from voice_agent.llm import OpenAIChatPolicy
+from voice_agent.grounded_llm_policy import GroundedLLMPolicy
 from voice_agent.sessions import Turn
+from adara_intelligence.intelligence.grounded_llm import GroundedReply, GroundingContext
 
 
-class _FakeResponse:
-    def __init__(self, payload: dict) -> None:
-        self._body = json.dumps(payload).encode('utf-8')
-
-    def read(self) -> bytes:
-        return self._body
-
-    def __enter__(self):
-        return self
-
-    def __exit__(self, *exc):
-        return False
+def _grounding(**kwargs) -> GroundingContext:
+    defaults = dict(
+        transcript='hello', asr_transcript=None, meaning_gloss=None,
+        dominant_language='tw', language_basis='text_only', code_switched=False,
+        switch_spans=[], concepts=[], domains=[], region={}, entities=None, intent=None,
+        reply_language_hint='tw', reply_tone_hint='formal', suggested_reply_length='short',
+        provisional=True, confidence=0.8, warnings=[],
+    )
+    defaults.update(kwargs)
+    return GroundingContext(**defaults)
 
 
-def _patch_openai(monkeypatch, *, reply_text: str | None = None, raises: Exception | None = None):
-    captured: dict = {}
-
-    def fake_urlopen(request, timeout=None):
-        captured['body'] = json.loads(request.data.decode('utf-8'))
-        captured['headers'] = dict(request.header_items())
-        if raises is not None:
-            raise raises
-        return _FakeResponse({'choices': [{'message': {'content': reply_text}}]})
-
-    monkeypatch.setattr('voice_agent.llm.urllib.request.urlopen', fake_urlopen)
-    return captured
+def _fake_reply(**kwargs) -> GroundedReply:
+    defaults = dict(
+        text='Akwaaba!', language='tw', source='grounded_llm:gpt-4o-mini',
+        grounding=_grounding(), system_prompt='SYSTEM', raw_llm_response='Akwaaba!',
+        asr_transcript=None, interpreted_transcript=None, meaning_gloss=None,
+    )
+    defaults.update(kwargs)
+    return GroundedReply(**defaults)
 
 
 def _turn(role: str, *, text: str | None = None, reply_text: str | None = None) -> Turn:
@@ -51,64 +45,69 @@ def _turn(role: str, *, text: str | None = None, reply_text: str | None = None) 
 
 def test_requires_an_api_key():
     with pytest.raises(ValueError):
-        OpenAIChatPolicy(api_key='')
+        GroundedLLMPolicy(api_key='')
 
 
-def test_empty_or_error_meaning_asks_to_repeat_without_calling_the_model(monkeypatch):
-    captured = _patch_openai(monkeypatch, reply_text='should not be reached')
-    policy = OpenAIChatPolicy(api_key='sk-test')
-
-    reply = policy.reply({'status': 'error'})
-
+def test_empty_or_error_meaning_asks_to_repeat_without_calling_the_model():
+    policy = GroundedLLMPolicy(api_key='sk-test')
+    with patch('adara_intelligence.intelligence.grounded_llm.grounded_reply') as mock:
+        reply = policy.reply({'status': 'error'})
+        mock.assert_not_called()
     assert reply.act == 'ask_repeat'
     assert reply.expects_answer is True
-    assert 'body' not in captured, 'a request with nothing to say must not call the model'
 
 
-def test_a_normal_turn_is_answered_by_the_model(monkeypatch):
-    captured = _patch_openai(monkeypatch, reply_text='Mobile money is a way to send cash by phone.')
-    policy = OpenAIChatPolicy(api_key='sk-test', model='gpt-4o-mini', speech_available=True)
+def test_a_normal_turn_is_answered_by_grounded_reply():
+    policy = GroundedLLMPolicy(api_key='sk-test', model='gpt-4o-mini', speech_available=True)
+    fake = _fake_reply(text='Mobile money is a way to send cash by phone.')
+    with patch('adara_intelligence.intelligence.grounded_llm.grounded_reply', return_value=fake) as mock:
+        reply = policy.reply({'transcript': 'What is momo?'})
+        mock.assert_called_once()
+        assert mock.call_args.kwargs.get('interpret_asr') is False
 
-    reply = policy.reply({'transcript': 'What is momo?'})
-
-    assert reply.source == 'openai:gpt-4o-mini'
+    assert reply.source == 'grounded_llm:gpt-4o-mini'
     assert reply.act == 'acknowledge'
     assert reply.text == 'Mobile money is a way to send cash by phone.'
     assert reply.speech == {'available': True, 'reason': ''}
-    assert captured['headers']['Authorization'] == 'Bearer sk-test'
-    messages = captured['body']['messages']
-    assert messages[-1] == {'role': 'user', 'content': 'What is momo?'}
 
 
-def test_prior_turns_become_history_but_the_turn_being_answered_is_not_duplicated(monkeypatch):
-    """`history` is session.turns, and the turn this call answers is already its last entry --
-    duplicating it as history would show the model its own upcoming input as something already
-    said."""
-    captured = _patch_openai(monkeypatch, reply_text='ok')
-    policy = OpenAIChatPolicy(api_key='sk-test')
+def test_asr_transcript_triggers_interpretation():
+    policy = GroundedLLMPolicy(api_key='sk-test')
+    fake = _fake_reply(
+        asr_transcript='ekom demi',
+        interpreted_transcript='Etwɔn anɔpa ni',
+        meaning_gloss="I'm hungry; I haven't eaten since morning.",
+        text='Mo ho yɛ den?',
+    )
+    meaning = {'transcript': 'ekom demi', 'asr_transcript': 'ekom demi'}
+    with patch('adara_intelligence.intelligence.grounded_llm.grounded_reply', return_value=fake) as mock:
+        reply = policy.reply(meaning)
+        assert mock.call_args.kwargs.get('interpret_asr') is True
+
+    assert reply.interpreted_transcript == 'Etwɔn anɔpa ni'
+    assert reply.meaning_gloss == "I'm hungry; I haven't eaten since morning."
+
+
+def test_prior_turns_become_extra_context():
+    policy = GroundedLLMPolicy(api_key='sk-test')
+    fake = _fake_reply()
     history = [
         _turn('user', text='hello'),
         _turn('agent', reply_text='hi there'),
-        _turn('user', text='what is momo?'),  # the turn being answered right now
+        _turn('user', text='what is momo?'),
     ]
-
-    policy.reply({'transcript': 'what is momo?'}, history=history)
-
-    messages = captured['body']['messages']
-    assert messages[0]['role'] == 'system'
-    assert [(m['role'], m['content']) for m in messages[1:]] == [
-        ('user', 'hello'),
-        ('assistant', 'hi there'),
-        ('user', 'what is momo?'),
-    ]
+    with patch('adara_intelligence.intelligence.grounded_llm.grounded_reply', return_value=fake) as mock:
+        policy.reply({'transcript': 'what is momo?'}, history=history)
+        extra = mock.call_args.kwargs.get('extra_context') or ''
+    assert 'hello' in extra
+    assert 'hi there' in extra
+    assert extra.count('what is momo?') == 0
 
 
-def test_a_model_outage_degrades_to_a_reply_instead_of_failing_the_turn(monkeypatch):
-    _patch_openai(monkeypatch, raises=TimeoutError('timed out'))
-    policy = OpenAIChatPolicy(api_key='sk-test')
-
-    reply = policy.reply({'transcript': 'hello'})
+def test_a_model_outage_degrades_to_a_reply_instead_of_failing_the_turn():
+    policy = GroundedLLMPolicy(api_key='sk-test')
+    with patch('adara_intelligence.intelligence.grounded_llm.grounded_reply', side_effect=TimeoutError('timed out')):
+        reply = policy.reply({'transcript': 'hello'})
 
     assert reply.act == 'report_unavailable'
     assert reply.warnings
-    assert reply.source == 'openai:gpt-4o-mini'

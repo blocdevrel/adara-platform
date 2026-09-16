@@ -35,7 +35,7 @@ export default function SttStreaming() {
 
       <Section title="Get notified">
         <p>
-          Watch the ADARA changelog (
+          Watch the Adara changelog (
           <a href="/news" className="underline hover:opacity-80">
             /news
           </a>

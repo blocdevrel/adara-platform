@@ -11,9 +11,9 @@ function LegalPage({
   children: ReactNode;
 }) {
   useEffect(() => {
-    document.title = `${title} — ADARA`;
+    document.title = `${title} — Adara`;
     return () => {
-      document.title = "ADARA — Data and tools that make AI understand Africa";
+      document.title = "Adara — Data and tools that make AI understand Africa";
     };
   }, [title]);
 
@@ -40,7 +40,7 @@ export function Privacy() {
   return (
     <LegalPage title="Privacy Policy">
       <p>
-        ADARA is not collecting account data yet. Waitlist emails you submit are stored only in your
+        Adara is not collecting account data yet. Waitlist emails you submit are stored only in your
         browser until our backend is live.
       </p>
       <p>

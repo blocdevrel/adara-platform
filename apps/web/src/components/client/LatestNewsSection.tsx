@@ -7,10 +7,10 @@ const homepagePosts = NEWS_POSTS.slice(0, 4);
 
 export function LatestNewsSection() {
   return (
-    <section id="news" className="section-auto bg-background py-20 sm:py-28">
+    <section id="news" className="bg-white py-20 text-[#0B0F0D] sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-10 flex items-end justify-between gap-4 sm:mb-12">
-          <h2 className="text-2xl font-normal tracking-[-0.02em] text-foreground sm:text-3xl">
+          <h2 className="text-[clamp(1.75rem,3vw,2.5rem)] font-light tracking-[-0.03em]">
             Latest news
           </h2>
           <Link

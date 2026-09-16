@@ -15,7 +15,7 @@ export default function UnderstandText() {
           rows={[
             ["text", "string", "Yes", "The utterance to understand."],
             ["locale", "string", "No", "BCP-47 locale (e.g. GH, NG, KE). Narrows context resolution to the right regional packs."],
-            ["language", "string", "No", "ISO 639-3 override (e.g. tw, pcm). If absent, ADARA detects it."],
+            ["language", "string", "No", "ISO 639-3 override (e.g. tw, pcm). If absent, Adara detects it."],
           ]}
         />
       </Section>
@@ -73,7 +73,7 @@ print(meaning.language)    # "pcm"
 print(meaning.concepts)    # ["electricity_utility", "agent_banking"]
 
 for w in meaning.warnings():
-    print("ADARA:", w)     # log these — do not drop them
+    print("Adara:", w)     # log these — do not drop them
 
 # Route on stable concept IDs, not gloss text
 if "electricity_utility" in meaning.concepts:

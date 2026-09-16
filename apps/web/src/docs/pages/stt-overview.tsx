@@ -25,7 +25,7 @@ export default function SttOverview() {
 
       <Section title="African accent support">
         <p>
-          Transcription quality is measured per language and per accent. ADARA specifically trains
+          Transcription quality is measured per language and per accent. Adara specifically trains
           and evaluates on West African and East African speaker populations, not generic English
           benchmarks.
         </p>
@@ -37,7 +37,7 @@ export default function SttOverview() {
       <Section title="Code-switching">
         <p>
           A single recording may contain multiple languages — e.g. a Ghanaian speaker alternating
-          between Twi and English. ADARA detects language boundaries within the audio and returns
+          between Twi and English. Adara detects language boundaries within the audio and returns
           segment-level language labels alongside the transcript.
         </p>
       </Section>

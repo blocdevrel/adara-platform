@@ -238,6 +238,16 @@ export const agent = {
       { method: "POST", body: JSON.stringify({ text }) },
     ),
 
+  /** ASR transcript — voice-agent marks source as `asr` so the LLM can interpret noisy text. */
+  sendTranscript: (sessionId: string, text: string) =>
+    request<{ turn: Turn; session: Partial<Session> }>(
+      `/v1/agent/sessions/${sessionId}/turns`,
+      {
+        method: "POST",
+        body: JSON.stringify({ text, transcript_source: "asr" }),
+      },
+    ),
+
   /**
    * Upload a recording as a turn.
    *

@@ -34,7 +34,7 @@ from adara import AdaraError, NotImplementedYet
 from .adara import AdaraGateway
 from .agent import VoiceAgent
 from .config import Config
-from .llm import OpenAIChatPolicy
+from .grounded_llm_policy import GroundedLLMPolicy
 from .sessions import SessionStore
 
 logger = logging.getLogger(__name__)
@@ -62,13 +62,13 @@ STATUS_MAP = {
 def _build_policy(config: Config, gateway: AdaraGateway):
     """`None` defers to VoiceAgent's own default (GroundedPolicy) -- see agent.py.
 
-    OpenAIChatPolicy only when a key is configured, so a deployment with no OPENAI_API_KEY behaves
-    exactly as it always has: template-only, never generated.
+    GroundedLLMPolicy when a key is configured — ASR interpretation + culturally grounded replies.
+    Without OPENAI_API_KEY the agent stays on template-only GroundedPolicy.
     """
     if not config.openai_api_key:
         return None
     capabilities = gateway.capabilities()
-    return OpenAIChatPolicy(
+    return GroundedLLMPolicy(
         api_key=config.openai_api_key,
         model=config.openai_model,
         speech_available=capabilities.synthesize,
@@ -194,17 +194,27 @@ class Application:
         })
 
     def transcribe(self, request) -> Response:
-        """Kept so the existing mobile call has a defined answer rather than a 404.
+        """Proxy multipart audio to Door ASR — mobile never calls Door directly."""
+        if request.audio is None:
+            return error_response(
+                400, 'empty_audio',
+                'Send audio as multipart/form-data with a file field.',
+            )
+        filename, audio = request.audio
+        if not audio:
+            return error_response(400, 'empty_audio', 'Audio file is empty.')
 
-        A JSON body carrying a local file URI cannot be transcribed by a server that has no access
-        to the phone's filesystem, so this states that and points at the endpoint that can.
-        """
-        return error_response(
-            501, 'not_implemented',
-            'Send audio as multipart to POST /v1/agent/sessions/{id}/turns. A JSON body with a '
-            'device file URI cannot be read by this service, and no ASR weights are installed in '
-            'this deployment either.',
-        )
+        fields = request.json if isinstance(request.json, dict) else {}
+        language = (fields.get('language') or '').strip() or None
+
+        try:
+            result = self.adara.transcribe(filename, audio, language=language)
+        except NotImplementedYet as error:
+            return error_response(501, 'not_implemented', str(error))
+        except AdaraError as error:
+            logger.warning('Transcription failed: %s', error)
+            return error_response(502, 'upstream_error', str(error)[:200])
+        return Response(200, result)
 
     def synthesize(self, request) -> Response:
         """Proxy Door TTS so the phone does not have to know about :8080."""
@@ -262,7 +272,12 @@ class Application:
             filename, audio = request.audio
             turn = self.agent.submit_audio(session, filename, audio)
         else:
-            turn = self.agent.submit_text(session, (request.json or {}).get('text', ''))
+            body = request.json or {}
+            turn = self.agent.submit_text(
+                session,
+                body.get('text', ''),
+                transcript_source=body.get('transcript_source') or 'typed',
+            )
 
         return Response(201, {
             'turn': turn.as_dict(),

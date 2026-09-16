@@ -70,9 +70,12 @@ class Reply:
 
     warnings: tuple[str, ...] = ()
     speech: dict = field(default_factory=dict)
+    asr_transcript: str | None = None
+    interpreted_transcript: str | None = None
+    meaning_gloss: str | None = None
 
     def as_dict(self) -> dict:
-        return {
+        payload = {
             'text': self.text,
             'source': self.source,
             'act': self.act,
@@ -81,6 +84,13 @@ class Reply:
             'warnings': list(self.warnings),
             'speech': dict(self.speech),
         }
+        if self.asr_transcript is not None:
+            payload['asr_transcript'] = self.asr_transcript
+        if self.interpreted_transcript is not None:
+            payload['interpreted_transcript'] = self.interpreted_transcript
+        if self.meaning_gloss is not None:
+            payload['meaning_gloss'] = self.meaning_gloss
+        return payload
 
 
 class AgentPolicy(Protocol):

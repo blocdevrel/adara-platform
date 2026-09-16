@@ -4,7 +4,7 @@ export default function SdkTesting() {
   return (
     <DocPage
       title="Testing"
-      description="Stub ADARA in unit tests so CI does not hit the live API."
+      description="Stub Adara in unit tests so CI does not hit the live API."
       prev={{ label: "Offline mode", to: "/docs/sdk-local" }}
       next={{ label: "Health Check", to: "/docs/health" }}
     >

@@ -56,7 +56,9 @@
       "typedRoutes": true
     },
     "extra": {
-      "adaraApiUrl": "http://172.20.10.2:8091"
+      "adaraApiUrl": "http://172.20.10.2:8091",
+      "adaraDoorUrl": "http://172.20.10.2:8088",
+      "adaraDoorToken": "dev"
     }
   }
 }

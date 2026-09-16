@@ -10,8 +10,13 @@
     --card-foreground: 0 0% 9%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 9%;
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
+    --adara-orange: 16 84% 52%;
+    --adara-orange-light: 22 92% 78%;
+    --adara-orange-hover: 16 80% 46%;
+    --adara-orange-active: 16 78% 40%;
+    --primary: 16 84% 52%;
+    --primary-foreground: 0 0% 100%;
+    --primary-muted: 16 84% 52%;
     --secondary: 0 0% 96%;
     --secondary-foreground: 0 0% 9%;
     --muted: 0 0% 96%;
@@ -23,12 +28,12 @@
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 0 0% 45%;
+    --ring: 16 84% 52%;
     --radius: 0.5rem;
     --sidebar: 0 0% 98%;
     --sidebar-foreground: 0 0% 9%;
-    --sidebar-primary: 0 0% 9%;
-    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-primary: 16 84% 52%;
+    --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 0 0% 96%;
     --sidebar-accent-foreground: 0 0% 9%;
     --sidebar-border: 0 0% 90%;
@@ -38,6 +43,9 @@
     --adara-glow-amber: 0 0% 20%;
     --adara-hero-surface: 0 0% 100%;
     --adara-pink: 330 80% 48%;
+    --mint: 16 84% 52%;
+    --mint-fg: 0 0% 100%;
+    --ink: 150 14% 5%;
   }
 
   .dark {
@@ -47,8 +55,13 @@
     --card-foreground: 0 0% 96%;
     --popover: 0 0% 5.5%;
     --popover-foreground: 0 0% 96%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 4%;
+    --adara-orange: 16 84% 52%;
+    --adara-orange-light: 22 92% 78%;
+    --adara-orange-hover: 16 80% 46%;
+    --adara-orange-active: 16 78% 40%;
+    --primary: 16 84% 52%;
+    --primary-foreground: 0 0% 100%;
+    --primary-muted: 16 84% 52%;
     --secondary: 0 0% 9%;
     --secondary-foreground: 0 0% 96%;
     --muted: 0 0% 9%;
@@ -60,12 +73,12 @@
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 14%;
     --input: 0 0% 14%;
-    --ring: 0 0% 85%;
+    --ring: 16 84% 52%;
     --radius: 0.5rem;
     --sidebar: 0 0% 5.5%;
     --sidebar-foreground: 0 0% 96%;
-    --sidebar-primary: 0 0% 98%;
-    --sidebar-primary-foreground: 0 0% 4%;
+    --sidebar-primary: 16 84% 52%;
+    --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 0 0% 9%;
     --sidebar-accent-foreground: 0 0% 96%;
     --sidebar-border: 0 0% 14%;
@@ -138,6 +151,24 @@
     background-color: hsl(var(--background));
   }
 
+  .mint-fill {
+    background-color: hsl(var(--adara-orange));
+    color: hsl(var(--primary-foreground));
+  }
+
+  .home-ink {
+    background-color: #0b0f0d;
+    color: #f7faf8;
+  }
+
+  .hero-geo {
+    background-color: #0b0f0d;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 90% 0%, rgba(235, 80, 31, 0.14), transparent 55%),
+      radial-gradient(ellipse 60% 40% at 8% 100%, rgba(235, 80, 31, 0.07), transparent 50%),
+      linear-gradient(165deg, #101614 0%, #0b0f0d 42%, #0e1311 100%);
+  }
+
   .dark .adara-ambient {
     background-color: hsl(var(--background));
   }
@@ -170,271 +201,6 @@
     .dark .hero-headline {
       text-shadow: 0 2px 28px rgb(0 0 0 / 0.45);
     }
-  }
-
-  .hero-tech-pattern {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    overflow: clip;
-  }
-
-  .hero-tech-map,
-  .hero-tech-glow {
-    box-sizing: border-box;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-  }
-
-  .hero-tech-glow-tr {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: min(38%, 380px);
-    height: min(38%, 380px);
-    background: radial-gradient(
-      ellipse 68% 62% at 52% 38%,
-      hsl(var(--foreground) / 0.05) 0%,
-      transparent 70%
-    );
-  }
-
-  .dark .hero-tech-glow-tr {
-    background: radial-gradient(
-      ellipse 68% 62% at 52% 38%,
-      hsl(0 0% 100% / 0.06) 0%,
-      transparent 70%
-    );
-  }
-
-  .hero-tech-glow-tc {
-    position: absolute;
-    top: calc(4.75rem + env(safe-area-inset-top));
-    left: 0;
-    width: min(28%, 240px);
-    height: min(26%, 240px);
-    background: radial-gradient(
-      ellipse 70% 65% at 30% 30%,
-      hsl(var(--foreground) / 0.045) 0%,
-      transparent 72%
-    );
-  }
-
-  .dark .hero-tech-glow-tc {
-    background: radial-gradient(
-      ellipse 70% 65% at 30% 30%,
-      hsl(0 0% 100% / 0.055) 0%,
-      transparent 72%
-    );
-  }
-
-  .hero-tech-glow-bl {
-    position: absolute;
-    bottom: 5.25rem;
-    left: 0;
-    width: min(32%, 280px);
-    height: min(32%, 280px);
-    background: radial-gradient(
-      ellipse 70% 65% at 40% 60%,
-      hsl(var(--foreground) / 0.04) 0%,
-      transparent 72%
-    );
-  }
-
-  .dark .hero-tech-glow-bl {
-    background: radial-gradient(
-      ellipse 70% 65% at 40% 60%,
-      hsl(0 0% 100% / 0.05) 0%,
-      transparent 72%
-    );
-  }
-
-  .hero-tech-map-tr {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: min(38%, 380px);
-    height: min(46%, 420px);
-    -webkit-mask-image: radial-gradient(
-      ellipse 78% 72% at 86% 8%,
-      #000 12%,
-      #000 50%,
-      transparent 78%
-    );
-    mask-image: radial-gradient(
-      ellipse 78% 72% at 86% 8%,
-      #000 12%,
-      #000 50%,
-      transparent 78%
-    );
-  }
-
-  .hero-tech-map-tc {
-    position: absolute;
-    top: calc(4.75rem + env(safe-area-inset-top));
-    left: 1.25%;
-    width: min(22%, 200px);
-    height: min(26%, 220px);
-    opacity: 0.8;
-    -webkit-mask-image: radial-gradient(
-      ellipse 90% 85% at 12% 0%,
-      #000 18%,
-      #000 52%,
-      transparent 86%
-    );
-    mask-image: radial-gradient(
-      ellipse 90% 85% at 12% 0%,
-      #000 18%,
-      #000 52%,
-      transparent 86%
-    );
-  }
-
-  .hero-tech-map-bl {
-    position: absolute;
-    bottom: 5.25rem;
-    left: 0;
-    width: min(30%, 260px);
-    height: min(34%, 280px);
-    opacity: 0.85;
-    -webkit-mask-image: radial-gradient(
-      ellipse 85% 80% at 18% 88%,
-      #000 10%,
-      #000 48%,
-      transparent 82%
-    );
-    mask-image: radial-gradient(
-      ellipse 85% 80% at 18% 88%,
-      #000 10%,
-      #000 48%,
-      transparent 82%
-    );
-  }
-
-  @media (max-width: 639px) {
-    .hero-tech-map-tc {
-      top: calc(4.35rem + env(safe-area-inset-top));
-      left: 2%;
-      width: min(34%, 140px);
-      height: min(38%, 160px);
-    }
-
-    .hero-tech-map-bl {
-      bottom: 4.5rem;
-      width: min(40%, 180px);
-      height: min(42%, 200px);
-    }
-  }
-
-  .hero-tech-stipple {
-    fill: hsl(0 0% 0% / 0.2);
-  }
-
-  .dark .hero-tech-stipple {
-    fill: hsl(0 0% 100% / 0.26);
-  }
-
-  .hero-tech-current,
-  .hero-tech-spark {
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-  }
-
-  .hero-tech-current {
-    stroke: hsl(var(--adara-pink) / 0.85);
-    stroke-width: 1.15;
-    stroke-dasharray: 22 210;
-    animation: hero-current 10s linear infinite;
-  }
-
-  .hero-tech-current-slow {
-    animation-duration: 14s;
-    animation-direction: reverse;
-    stroke-width: 0.9;
-  }
-
-  .hero-tech-spark {
-    stroke: hsl(var(--adara-pink) / 0.95);
-    stroke-width: 1.6;
-    stroke-dasharray: 7 260;
-    animation: hero-spark 6s linear infinite;
-  }
-
-  .dark .hero-tech-spark {
-    stroke: hsl(0 0% 100% / 0.95);
-  }
-
-  .hero-tech-map-tr .hero-tech-current {
-    animation-delay: 0s;
-  }
-
-  .hero-tech-map-tr .hero-tech-spark {
-    animation-delay: 0.4s;
-  }
-
-  .hero-tech-map-tc .hero-tech-current {
-    animation-delay: -1.7s;
-  }
-
-  .hero-tech-map-tc .hero-tech-spark {
-    animation-delay: -0.6s;
-  }
-
-  .hero-tech-map-bl .hero-tech-current {
-    animation-delay: -3.1s;
-  }
-
-  .hero-tech-map-bl .hero-tech-spark {
-    animation-delay: -1.2s;
-  }
-
-  .hero-tech-glow-tr,
-  .hero-tech-glow-tc,
-  .hero-tech-glow-bl {
-    opacity: 0.85;
-  }
-
-  @keyframes hero-current {
-    to {
-      stroke-dashoffset: -232;
-    }
-  }
-
-  @keyframes hero-spark {
-    to {
-      stroke-dashoffset: -267;
-    }
-  }
-
-  @keyframes hero-stipple-pulse {
-    0%,
-    100% {
-      opacity: 0.72;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-
-  @keyframes hero-glow-pulse {
-    0%,
-    100% {
-      opacity: 0.7;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-
-  .hero-tech-paused .hero-tech-stipple,
-  .hero-tech-paused .hero-tech-current,
-  .hero-tech-paused .hero-tech-spark,
-  .hero-tech-paused .hero-tech-glow-tr,
-  .hero-tech-paused .hero-tech-glow-tc,
-  .hero-tech-paused .hero-tech-glow-bl {
-    animation-play-state: paused;
   }
 
   .interactive-scale {
@@ -846,15 +612,6 @@
     will-change: auto;
   }
 
-  .hero-tech-stipple,
-  .hero-tech-current,
-  .hero-tech-spark,
-  .hero-tech-glow-tr,
-  .hero-tech-glow-tc,
-  .hero-tech-glow-bl {
-    animation: none;
-  }
-
   .interactive-scale:hover,
   .interactive-scale:active {
     transform: none;
@@ -927,8 +684,7 @@
 }
 
 .animate-marquee-ltr,
-.animate-marquee-rtl,
-.animate-marquee-flags {
+.animate-marquee-rtl {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transform: translateZ(0);
@@ -944,8 +700,7 @@
 }
 
 .is-offscreen .animate-marquee-ltr,
-.is-offscreen .animate-marquee-rtl,
-.is-offscreen .animate-marquee-flags {
+.is-offscreen .animate-marquee-rtl {
   animation-play-state: paused !important;
 }
 
@@ -959,48 +714,14 @@
   animation-duration: 50s;
 }
 
-.animate-marquee-flags {
-  animation-name: marquee-ltr;
-  animation-duration: 60s;
-  will-change: transform;
-}
-
 .is-offscreen .animate-marquee-ltr,
-.is-offscreen .animate-marquee-rtl,
-.is-offscreen .animate-marquee-flags {
+.is-offscreen .animate-marquee-rtl {
   will-change: auto;
-}
-
-.country-flag-slot {
-  contain: paint;
-}
-
-.country-flag {
-  display: block;
-  pointer-events: none;
-}
-
-.flag-marquee-mask {
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    #000 12%,
-    #000 88%,
-    transparent 100%
-  );
-  mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    #000 12%,
-    #000 88%,
-    transparent 100%
-  );
 }
 
 @media (prefers-reduced-motion: reduce) {
   .animate-marquee-ltr,
-  .animate-marquee-rtl,
-  .animate-marquee-flags {
+  .animate-marquee-rtl {
     animation: none;
     will-change: auto;
   }

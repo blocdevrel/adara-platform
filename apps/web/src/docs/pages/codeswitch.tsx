@@ -4,7 +4,7 @@ export default function Codeswitch() {
   return (
     <DocPage
       title="Code-switching"
-      description="When a speaker moves between two languages in one sentence — ADARA detects it."
+      description="When a speaker moves between two languages in one sentence — Adara detects it."
       prev={{ label: "Understand Audio", to: "/docs/understand-audio" }}
       next={{ label: "Provisional & Warnings", to: "/docs/provisional" }}
     >
@@ -20,7 +20,7 @@ export default function Codeswitch() {
           <li><strong>Swahili–English (KE):</strong> "Nitakutext later, tukubaliane hapa"</li>
         </ul>
         <p>
-          Systems that only detect one dominant language per utterance fail these speakers. ADARA
+          Systems that only detect one dominant language per utterance fail these speakers. Adara
           reports segment-level language boundaries so your application knows where each language
           starts and ends.
         </p>

@@ -3174,3 +3174,1483 @@ INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_e42f5b0fd7364b3c8c63 H
 INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_e42f5b0fd7364b3c8c63 HTTP/1.1" 200 -
 INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_e42f5b0fd7364b3c8c63 HTTP/1.1" 200 -
 INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_e42f5b0fd7364b3c8c63 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "POST /v1/agent/sessions/sess_6595c5ff2d6844958c85/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6595c5ff2d6844958c85 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 404 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 404 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 404 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 404 -
+INFO __main__: 172.20.10.1 - "DELETE /v1/agent/sessions/sess_6e8a5f7e5fd44293b985 HTTP/1.1" 404 -
+INFO __main__: 172.20.10.1 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "DELETE /v1/agent/sessions/sess_3064bc6dca384d988b6d HTTP/1.1" 200 -
+INFO __main__: 127.0.0.1 - "GET /v1/health HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60686)
+Traceback (most recent call last):
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+INFO __main__: 172.20.10.1 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "DELETE /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "DELETE /v1/agent/sessions/sess_7d91af59f528492587b4 HTTP/1.1" 404 -
+INFO __main__: 172.20.10.1 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "GET /v1/health HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('172.20.10.2', 49673)
+Traceback (most recent call last):
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "GET /v1/health HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('172.20.10.2', 57208)
+Traceback (most recent call last):
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "DELETE /v1/agent/sessions/sess_597d38e2c92c4bff9495 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "OPTIONS /v1/agent/sessions HTTP/1.1" 204 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_d6f728797d9f4af49005/events HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_d6f728797d9f4af49005/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "OPTIONS /v1/agent/sessions/sess_d6f728797d9f4af49005 HTTP/1.1" 204 -
+INFO __main__: 172.20.10.2 - "DELETE /v1/agent/sessions/sess_d6f728797d9f4af49005 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_00783b21e22a4b81aafc/events HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_00783b21e22a4b81aafc/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "OPTIONS /v1/agent/sessions/sess_00783b21e22a4b81aafc HTTP/1.1" 204 -
+INFO __main__: 172.20.10.2 - "DELETE /v1/agent/sessions/sess_00783b21e22a4b81aafc HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_a3a0a0172695441aab87/events HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "OPTIONS /v1/agent/sessions/sess_a3a0a0172695441aab87 HTTP/1.1" 204 -
+INFO __main__: 172.20.10.2 - "DELETE /v1/agent/sessions/sess_a3a0a0172695441aab87 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_7052cba625a34896a897/events HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_fd2c1d5412d9436ea1ee/events HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('172.20.10.2', 64313)
+Traceback (most recent call last):
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('172.20.10.2', 58291)
+Traceback (most recent call last):
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_c547827f7ca341bab828/events HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_9ccb82ddb61b406d8cf1/events HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('172.20.10.2', 62427)
+Traceback (most recent call last):
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_a3883ffd94a94217bfe3/events HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+----------------------------------------
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+Exception occurred during processing of request from ('172.20.10.2', 56625)
+INFO __main__: 172.20.10.2 - "OPTIONS /v1/agent/sessions/sess_a3883ffd94a94217bfe3 HTTP/1.1" 204 -
+Traceback (most recent call last):
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO __main__: 172.20.10.2 - "DELETE /v1/agent/sessions/sess_a3883ffd94a94217bfe3 HTTP/1.1" 200 -
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+----------------------------------------
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+Exception occurred during processing of request from ('172.20.10.2', 64727)
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+Traceback (most recent call last):
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_fbfdbba7de4c485db5f8/events HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "OPTIONS /v1/agent/sessions/sess_fbfdbba7de4c485db5f8 HTTP/1.1" 204 -
+INFO __main__: 172.20.10.2 - "DELETE /v1/agent/sessions/sess_fbfdbba7de4c485db5f8 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('172.20.10.2', 52275)
+Traceback (most recent call last):
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_620f8265ef564f0fbedb/events HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "OPTIONS /v1/agent/sessions/sess_620f8265ef564f0fbedb HTTP/1.1" 204 -
+INFO __main__: 172.20.10.2 - "DELETE /v1/agent/sessions/sess_620f8265ef564f0fbedb HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('172.20.10.2', 60198)
+Traceback (most recent call last):
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_171fbb6854e54c18be37/events HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_171fbb6854e54c18be37/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_171fbb6854e54c18be37/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_171fbb6854e54c18be37/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "DELETE /v1/agent/sessions/sess_3a4f030faccc42a58279 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_3ab58b7570664f71a814/events HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('172.20.10.2', 64932)
+Traceback (most recent call last):
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\njoya\AppData\Local\Python\pythoncore-3.14-64\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+----------------------------------------
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions/sess_3ab58b7570664f71a814/turns HTTP/1.1" 201 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.1 - "GET /v1/agent/sessions/sess_3a6882707b6c4ab788aa HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "OPTIONS /v1/agent/sessions/sess_3ab58b7570664f71a814 HTTP/1.1" 204 -
+INFO __main__: 172.20.10.2 - "DELETE /v1/agent/sessions/sess_3ab58b7570664f71a814 HTTP/1.1" 200 -
+INFO __main__: 172.20.10.2 - "DELETE /v1/agent/sessions/sess_3ab58b7570664f71a814 HTTP/1.1" 404 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "POST /v1/agent/sessions HTTP/1.1" 201 -
+INFO __main__: 172.20.10.2 - "GET /v1/agent/sessions/sess_555a262a803b4651b4c3/events HTTP/1.1" 200 -

@@ -12,7 +12,7 @@ export default function Quickstart() {
     >
       <Section title="Prerequisites">
         <ul className="list-disc pl-5 space-y-1">
-          <li>An ADARA account</li>
+          <li>An Adara account</li>
           <li>A server that can keep your API key secret — never a browser or mobile app</li>
         </ul>
       </Section>
@@ -23,7 +23,7 @@ export default function Quickstart() {
             <p>
               Open the{" "}
               <Link to="/login" className="underline hover:opacity-80">
-                ADARA dashboard
+                Adara dashboard
               </Link>{" "}
               and sign in.
             </p>

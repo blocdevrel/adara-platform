@@ -16,7 +16,7 @@ export default function SttUploadSync() {
           headers={["Field", "Type", "Required", "Description"]}
           rows={[
             ["file", "multipart file", "Yes", "The audio file. WAV preferred, M4A/MP3/FLAC also accepted."],
-            ["language", "string", "No", "ISO 639-3 code (e.g. tw, pcm). If absent, ADARA detects it."],
+            ["language", "string", "No", "ISO 639-3 code (e.g. tw, pcm). If absent, Adara detects it."],
             ["locale", "string", "No", "BCP-47 locale hint (e.g. GH, NG). Narrows language detection."],
           ]}
         />

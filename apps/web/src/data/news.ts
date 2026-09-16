@@ -34,7 +34,7 @@ export const NEWS_POSTS: NewsPost[] = [
     body: [
       {
         type: "p",
-        text: "The ADARA HTTP contract is version 0.0.0 and says so in its own description: a development contract, with endpoints stubbed until the intelligence services ship. Language detection, translation, speech transcription, and both context endpoints all answer 501 Not Implemented today. Only liveness and the two catalog routes return anything.",
+        text: "The Adara HTTP contract is version 0.0.0 and says so in its own description: a development contract, with endpoints stubbed until the intelligence services ship. Language detection, translation, speech transcription, and both context endpoints all answer 501 Not Implemented today. Only liveness and the two catalog routes return anything.",
       },
       {
         type: "h2",
@@ -63,7 +63,7 @@ export const NEWS_POSTS: NewsPost[] = [
     date: "Aug 14, 2026",
     isoDate: "2026-08-14",
     title:
-      "Why ADARA routes between speech models instead of picking one",
+      "Why Adara routes between speech models instead of picking one",
     excerpt:
       "Whisper claims 9 of the 36 African languages we track. Meta's MMS claims 29. Neither covers everything, which makes the router the interesting part.",
     label: "Models",
@@ -74,7 +74,7 @@ export const NEWS_POSTS: NewsPost[] = [
     body: [
       {
         type: "p",
-        text: "Our coverage report answers one question: of the 36 African languages in the ADARA registry, which can anything installed actually handle? The counts come from each backend's own language list, computed at runtime rather than written down by hand. Whisper claims 9 of 36, covering roughly 377 million speakers. Meta's MMS claims 29, covering roughly 786 million.",
+        text: "Our coverage report answers one question: of the 36 African languages in the Adara registry, which can anything installed actually handle? The counts come from each backend's own language list, computed at runtime rather than written down by hand. Whisper claims 9 of 36, covering roughly 377 million speakers. Meta's MMS claims 29, covering roughly 786 million.",
       },
       {
         type: "p",
@@ -86,7 +86,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "Transcription, language identification, and diarization all go through a model router rather than calling a model directly. It prefers whichever registered backend actually claims the language being spoken, so a developer calling ADARA gets a working model without needing to know any of the above.",
+        text: "Transcription, language identification, and diarization all go through a model router rather than calling a model directly. It prefers whichever registered backend actually claims the language being spoken, so a developer calling Adara gets a working model without needing to know any of the above.",
       },
       {
         type: "p",
@@ -94,7 +94,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "ADARA Speech is experimental and provider-agnostic. It is a set of interfaces that route to open or commercial engines; it is not a shipped production ASR, and it ships no weights.",
+        text: "Adara Speech is experimental and provider-agnostic. It is a set of interfaces that route to open or commercial engines; it is not a shipped production ASR, and it ships no weights.",
       },
     ],
   },
@@ -130,7 +130,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "The recorded limitations carry as much weight as the score. These corpora are read or prompted speech — not spontaneous conversation, and not the noisy market, farm, and street conditions ADARA is built for. A good word error rate here is not a promise about a trader's phone in a crowded market.",
+        text: "The recorded limitations carry as much weight as the score. These corpora are read or prompted speech — not spontaneous conversation, and not the noisy market, farm, and street conditions Adara is built for. A good word error rate here is not a promise about a trader's phone in a crowded market.",
       },
       {
         type: "h2",
@@ -138,7 +138,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "Of the 36 languages in the registry, the number verified by ADARA measurement is zero. Every coverage figure we publish is a vendor's list entry, which is a claim and not a result. Early benchmark runs are small and stay internal until they are large enough to mean something — this feed will not report a claim as a measurement.",
+        text: "Of the 36 languages in the registry, the number verified by Adara measurement is zero. Every coverage figure we publish is a vendor's list entry, which is a claim and not a result. Early benchmark runs are small and stay internal until they are large enough to mean something — this feed will not report a claim as a measurement.",
       },
     ],
   },
@@ -149,7 +149,7 @@ export const NEWS_POSTS: NewsPost[] = [
     title:
       "Audio decoding is the trust boundary, so that is where the checks live",
     excerpt:
-      "ADARA Speech has no listener of its own, but it is written against the hosted case — path confinement, container limits, and model-identifier allowlists exist before the service does.",
+      "Adara Speech has no listener of its own, but it is written against the hosted case — path confinement, container limits, and model-identifier allowlists exist before the service does.",
     label: "Security",
     image: "/assets/news-security.svg",
     imagePosition: "center",
@@ -158,7 +158,7 @@ export const NEWS_POSTS: NewsPost[] = [
     body: [
       {
         type: "p",
-        text: "Every decode in ADARA Speech goes through a single load function, and every path through a single resolver. They resolve symlinks before checking the permitted roots, reject anything that is not a regular file, and enforce size, duration, and channel limits read from the container header — before any decoding starts.",
+        text: "Every decode in Adara Speech goes through a single load function, and every path through a single resolver. They resolve symlinks before checking the permitted roots, reject anything that is not a regular file, and enforce size, duration, and channel limits read from the container header — before any decoding starts.",
       },
       {
         type: "p",
@@ -193,7 +193,7 @@ export const NEWS_POSTS: NewsPost[] = [
     title:
       "Every backend supports English. None has been measured on Yoruba-accented English.",
     excerpt:
-      "106 accents of English are attested in the AfriSpeech corpus. 25 have enough data to support a per-accent claim, and ADARA has measured none of them.",
+      "106 accents of English are attested in the AfriSpeech corpus. 25 have enough data to support a per-accent claim, and Adara has measured none of them.",
     label: "Corpus",
     image: "/assets/news-corpus-annotation.svg",
     imagePosition: "center",
@@ -206,7 +206,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "Our coverage report reads 106 attested accents of English from the AfriSpeech-200 corpus, released under CC-BY-NC-SA-4.0. Of those, 25 have enough hours behind them to support a per-accent claim. The number ADARA has independently measured is zero.",
+        text: "Our coverage report reads 106 attested accents of English from the AfriSpeech-200 corpus, released under CC-BY-NC-SA-4.0. Of those, 25 have enough hours behind them to support a per-accent claim. The number Adara has independently measured is zero.",
       },
       {
         type: "p",
@@ -254,7 +254,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "ADARA Speech remains experimental. The interfaces are provider-agnostic deliberately: when a better backend appears for any of these languages, swapping to it should not touch a line of calling code.",
+        text: "Adara Speech remains experimental. The interfaces are provider-agnostic deliberately: when a better backend appears for any of these languages, swapping to it should not touch a line of calling code.",
       },
     ],
   },

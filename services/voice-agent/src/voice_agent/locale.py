@@ -21,7 +21,7 @@ if TYPE_CHECKING:
 # English for GH/NG covers the demo phrases ("chale the momo no enter", "NEPA
 # don take light") which are Ghanaian/Nigerian English with local loanwords.
 LOCALE_SPEECH_LANGUAGE: dict[str, str] = {
-    'GH': 'en',
+    'GH': 'tw',
     'NG': 'en',
     'KE': 'sw',
     'TZ': 'sw',

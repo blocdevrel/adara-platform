@@ -11,11 +11,11 @@ from voice_agent.locale import (
 from voice_agent.sessions import Session
 
 
-def test_bare_session_defaults_to_ghana_english_speech():
+def test_bare_session_defaults_to_ghana_twi_speech():
     locale, language, client = apply_session_defaults(None, None, None)
     assert locale == 'GH'
     assert language is None
-    assert client['speech_language'] == 'en'
+    assert client['speech_language'] == 'tw'
     assert client['tts_language'] == 'tw'
 
 
@@ -54,12 +54,12 @@ def test_english_speech_does_not_narrow_context_packs():
 def test_en_gh_locale_normalises_to_country():
     locale, _, client = apply_session_defaults('en-GH', None, None)
     assert locale == 'GH'
-    assert client['speech_language'] == 'en'
+    assert client['speech_language'] == 'tw'
 
 
-def test_store_create_fills_ghana_english_when_the_client_sends_nothing(store):
+def test_store_create_fills_ghana_twi_when_the_client_sends_nothing(store):
     session = store.create()
     assert session.locale == 'GH'
     assert session.language is None
-    assert session.client['speech_language'] == 'en'
-    assert speech_language_for(session) == 'eng'
+    assert session.client['speech_language'] == 'tw'
+    assert speech_language_for(session) == 'tw'

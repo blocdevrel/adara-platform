@@ -19,11 +19,11 @@ export type VoicePrefs = {
 
 export const DEFAULT_VOICE_PREFS: VoicePrefs = {
   locale: "GH",
-  speechLanguage: "en",
+  speechLanguage: "tw",
 };
 
 export const VOICE_REGIONS: { code: string; label: string; speechDefault: string }[] = [
-  { code: "GH", label: "Ghana", speechDefault: "en" },
+  { code: "GH", label: "Ghana", speechDefault: "tw" },
   { code: "NG", label: "Nigeria", speechDefault: "en" },
   { code: "KE", label: "Kenya", speechDefault: "sw" },
   { code: "TZ", label: "Tanzania", speechDefault: "sw" },
