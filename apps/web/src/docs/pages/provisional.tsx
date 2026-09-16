@@ -12,7 +12,7 @@ export default function Provisional() {
         <p>
           Every knowledge pack shipped with Adara today is <IC>provisional: true</IC>. That means
           the glosses, concepts, and local reference resolutions were assembled from secondary
-          sources — dictionaries, community corpora, public documentation — and have not been
+          sources, dictionaries, community corpora, public documentation, and have not been
           reviewed by a fluent speaker of the language.
         </p>
         <p>
@@ -43,10 +43,10 @@ export default function Provisional() {
       </Section>
 
       <Section title="Types of warnings">
-        <p><strong>provisional</strong> — Knowledge pack not reviewed by a native speaker.</p>
-        <p><strong>Detector disagreement</strong> — The speech-based and text-based language detectors returned different languages. The higher-confidence one was used; the other is flagged.</p>
-        <p><strong>Region mismatch</strong> — The detected language is from region A, but all local references resolved to region B. The utterance may be from a speaker living outside their home region.</p>
-        <p><strong>Sensitive term</strong> — A resolved concept is marked sensitive in the knowledge pack — typically an insult, a contested name, or a term with significant cultural weight. Never paraphrase it; surface the sensitivity flag to your users.</p>
+        <p><strong>provisional</strong>, Knowledge pack not reviewed by a native speaker.</p>
+        <p><strong>Detector disagreement</strong>, The speech-based and text-based language detectors returned different languages. The higher-confidence one was used; the other is flagged.</p>
+        <p><strong>Region mismatch</strong>, The detected language is from region A, but all local references resolved to region B. The utterance may be from a speaker living outside their home region.</p>
+        <p><strong>Sensitive term</strong>, A resolved concept is marked sensitive in the knowledge pack, typically an insult, a contested name, or a term with significant cultural weight. Never paraphrase it; surface the sensitivity flag to your users.</p>
       </Section>
 
       <Section title="When provisional becomes false">
@@ -67,7 +67,7 @@ export default function Provisional() {
       <Section title="status: interface_only">
         <Callout variant="info">
           <IC>status: interface_only</IC> is different from <IC>provisional</IC>. It means no backend
-          model ran — only the heuristic text detector. You get a language guess but no resolved
+          model ran, only the heuristic text detector. You get a language guess but no resolved
           concepts. It is not an error: nothing is broken, the backend is simply not installed.
         </Callout>
       </Section>

@@ -71,10 +71,10 @@ export default function AgentTurns() {
           headers={["Field", "Meaning"]}
           rows={[
             ["text", "The reply to show the user."],
-            ["source", "Always grounded_template — assembled from resolved data, not generated."],
+            ["source", "Always grounded_template, assembled from resolved data, not generated."],
             ["act", "Dialogue act: acknowledge, clarify_sense, ask_unknown_term, ask_repeat, report_unavailable."],
             ["grounded_on", "Concept IDs the reply used. Auditable."],
-            ["expects_answer", "If true, keep the mic open — the agent asked a question."],
+            ["expects_answer", "If true, keep the mic open, the agent asked a question."],
             ["warnings", "Surface these to the user. Do not drop them."],
             ["speech.available", "Whether TTS playback can be triggered for this reply."],
           ]}

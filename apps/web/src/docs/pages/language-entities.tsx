@@ -4,7 +4,7 @@ export default function LanguageEntities() {
   return (
     <DocPage
       title="Named Entities (NER)"
-      description="Extract typed spans from text — people, places, organisations, monetary amounts, phone numbers."
+      description="Extract typed spans from text, people, places, organisations, monetary amounts, phone numbers."
       prev={{ label: "Language Detection", to: "/docs/language-detect" }}
       next={{ label: "Code-switch Segments", to: "/docs/language-codeswitch" }}
     >

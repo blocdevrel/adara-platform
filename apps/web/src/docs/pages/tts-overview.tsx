@@ -3,7 +3,7 @@ import { DocPage, Section, Table, DocCard, IC } from "../DocProse";
 export default function TtsOverview() {
   return (
     <DocPage
-      title="Text to Speech — Overview"
+      title="Text to Speech, Overview"
       description="Convert text to natural-sounding speech in African languages."
       prev={{ label: "Streaming STT", to: "/docs/stt-streaming" }}
       next={{ label: "TTS Languages & Accents", to: "/docs/tts-languages" }}
@@ -15,8 +15,8 @@ export default function TtsOverview() {
         <Table
           headers={["Path", "Description"]}
           rows={[
-            [<IC key="gen">POST /v1/speech/synthesize</IC>, "Synchronous — send text, get back WAV base64 in the response body"],
-            [<><IC key="stream">POST /v1/speech/synthesize/stream</IC> <span className="text-xs text-orange-500 ml-1">Soon</span></>, "Streaming — audio chunks returned as they are generated"],
+            [<IC key="gen">POST /v1/speech/synthesize</IC>, "Synchronous, send text, get back WAV base64 in the response body"],
+            [<><IC key="stream">POST /v1/speech/synthesize/stream</IC> <span className="text-xs text-orange-500 ml-1">Soon</span></>, "Streaming, audio chunks returned as they are generated"],
           ]}
         />
       </Section>
@@ -56,7 +56,7 @@ export default function TtsOverview() {
           <DocCard
             to="/docs/tts-streaming"
             title="TTS Streaming"
-            description="Chunked audio as it is generated — coming soon."
+            description="Chunked audio as it is generated, coming soon."
           />
         </div>
       </Section>

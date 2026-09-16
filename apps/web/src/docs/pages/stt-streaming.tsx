@@ -14,7 +14,7 @@ export default function SttStreaming() {
           <span className="text-sm text-zinc-500">Not available yet</span>
         </div>
         <p>
-          Streaming STT sends words back to the caller as they are transcribed — not after the
+          Streaming STT sends words back to the caller as they are transcribed, not after the
           full recording is complete. This enables live captioning, real-time voice interfaces,
           and low-latency voice bots.
         </p>
@@ -22,7 +22,7 @@ export default function SttStreaming() {
 
       <Section title="Planned endpoint">
         <p>
-          <IC>WS /v1/speech/stream</IC> — WebSocket connection. The client streams audio chunks;
+          <IC>WS /v1/speech/stream</IC>, WebSocket connection. The client streams audio chunks;
           the server sends back partial and final transcript frames.
         </p>
       </Section>

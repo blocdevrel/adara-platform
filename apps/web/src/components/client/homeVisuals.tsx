@@ -90,7 +90,6 @@ export function LineChartVisual() {
           fill="none"
           stroke="#0B0F0D"
           strokeWidth="1.5"
-          strokeDasharray="4 5"
           points="8,118 48,110 88,114 128,90 168,94 208,72 248,78 308,58"
         />
       </svg>
@@ -104,7 +103,7 @@ export function BarChartVisual() {
   return (
     <div className="px-6 py-8">
       <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#6B7280]">adara/models</p>
-      <p className="mt-1 text-sm text-[#0B0F0D]">Twi · Yoruba · Swahili</p>
+      <p className="mt-1 text-sm text-[#0B0F0D]">Twi, Yoruba, Swahili</p>
       <div className="mt-8 flex h-32 items-end gap-3">
         {bars.map((h, i) => (
           <div

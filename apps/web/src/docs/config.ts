@@ -30,7 +30,7 @@ export const DOC_SECTIONS: DocSection[] = [
     ],
   },
   {
-    title: "Speech — Understand",
+    title: "Speech, Understand",
     items: [
       { id: "understand-overview", label: "Overview" },
       { id: "understand-text", label: "Understand Text" },
@@ -40,7 +40,7 @@ export const DOC_SECTIONS: DocSection[] = [
     ],
   },
   {
-    title: "STT — Speech to Text",
+    title: "STT, Speech to Text",
     items: [
       { id: "stt-overview", label: "Overview" },
       { id: "stt-languages", label: "Supported Languages" },
@@ -50,7 +50,7 @@ export const DOC_SECTIONS: DocSection[] = [
     ],
   },
   {
-    title: "TTS — Text to Speech",
+    title: "TTS, Text to Speech",
     items: [
       { id: "tts-overview", label: "Overview" },
       { id: "tts-languages", label: "Supported Languages & Accents" },

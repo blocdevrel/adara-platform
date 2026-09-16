@@ -83,7 +83,7 @@ function Page({ Component }: { Component: React.ComponentType }) {
 // ─── Router ──────────────────────────────────────────────────────────────────
 //
 // Each page gets its own <Route>. React Router compares the path on every
-// navigation and re-renders the matched element — this is what makes the
+// navigation and re-renders the matched element, this is what makes the
 // sidebar links actually change the content.
 
 export default function DocsRouter() {
@@ -99,7 +99,7 @@ export default function DocsRouter() {
       <Route path="authentication"  element={<Page Component={Authentication} />} />
       <Route path="errors"          element={<Page Component={Errors} />} />
 
-      {/* Speech — Understand */}
+      {/* Speech, Understand */}
       <Route path="understand-overview" element={<Page Component={UnderstandOverview} />} />
       <Route path="understand-text"     element={<Page Component={UnderstandText} />} />
       <Route path="understand-audio"    element={<Page Component={UnderstandAudio} />} />

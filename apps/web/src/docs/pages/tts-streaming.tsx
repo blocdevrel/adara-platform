@@ -4,7 +4,7 @@ export default function TtsStreaming() {
   return (
     <DocPage
       title="TTS Streaming"
-      description="Receive audio chunks as they are generated — lower latency for voice bot replies."
+      description="Receive audio chunks as they are generated, lower latency for voice bot replies."
       prev={{ label: "TTS Generate", to: "/docs/tts-generate" }}
       next={{ label: "Language Detection", to: "/docs/language-detect" }}
     >
@@ -22,7 +22,7 @@ export default function TtsStreaming() {
 
       <Section title="Planned endpoint">
         <p>
-          <IC>POST /v1/speech/synthesize/stream</IC> — same request body as{" "}
+          <IC>POST /v1/speech/synthesize/stream</IC>, same request body as{" "}
           <IC>POST /v1/speech/synthesize</IC>; response is a chunked audio stream.
         </p>
         <Callout variant="tip">

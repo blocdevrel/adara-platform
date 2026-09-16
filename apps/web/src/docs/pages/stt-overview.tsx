@@ -3,7 +3,7 @@ import { DocPage, Section, Callout, Table, DocCard, IC } from "../DocProse";
 export default function SttOverview() {
   return (
     <DocPage
-      title="Speech to Text — Overview"
+      title="Speech to Text, Overview"
       description="Convert African-language audio to text. Optimised for accents and code-switching."
       prev={{ label: "Provisional & Warnings", to: "/docs/provisional" }}
       next={{ label: "Supported Languages", to: "/docs/stt-languages" }}
@@ -16,8 +16,8 @@ export default function SttOverview() {
         <Table
           headers={["Path", "Use case"]}
           rows={[
-            [<IC key="sync">POST /v1/speech/transcribe</IC>, "Short clips ≤ 30 s — synchronous, responds immediately"],
-            [<IC key="job">POST /v1/speech/jobs</IC>, "Long recordings up to 4 hours — async job with partial results"],
+            [<IC key="sync">POST /v1/speech/transcribe</IC>, "Short clips ≤ 30 s, synchronous, responds immediately"],
+            [<IC key="job">POST /v1/speech/jobs</IC>, "Long recordings up to 4 hours, async job with partial results"],
             [<><IC key="ws">WS /v1/speech/stream</IC> <span className="text-xs text-orange-500 ml-1">Soon</span></>, "Real-time streaming as audio chunks arrive"],
           ]}
         />
@@ -36,7 +36,7 @@ export default function SttOverview() {
 
       <Section title="Code-switching">
         <p>
-          A single recording may contain multiple languages — e.g. a Ghanaian speaker alternating
+          A single recording may contain multiple languages, e.g. a Ghanaian speaker alternating
           between Twi and English. Adara detects language boundaries within the audio and returns
           segment-level language labels alongside the transcript.
         </p>
@@ -76,7 +76,7 @@ export default function SttOverview() {
           <DocCard
             to="/docs/stt-streaming"
             title="Streaming STT"
-            description="Real-time transcription via WebSocket — coming soon."
+            description="Real-time transcription via WebSocket, coming soon."
           />
         </div>
       </Section>

@@ -35,7 +35,7 @@ const PAGE_COPY: Record<string, { name: string; description: string }> = {
   },
   "/support": {
     name: "Support",
-    description: "Help center isn’t live yet. For now, email info@adara.ai — or join the waitlist.",
+    description: "Help center isn’t live yet. For now, email info@adara.ai, or join the waitlist.",
   },
   "/learn": {
     name: "Learn",
@@ -55,9 +55,9 @@ export function ComingSoon() {
   };
 
   useEffect(() => {
-    document.title = `${copy.name} — Coming soon — Adara`;
+    document.title = `${copy.name} | Coming soon | Adara`;
     return () => {
-      document.title = "Adara — Data and tools that make AI understand Africa";
+      document.title = "Adara, Data and tools that make AI understand Africa";
     };
   }, [copy.name]);
 

@@ -47,8 +47,8 @@ export default function SttUploadAsync() {
           rows={[
             ["queued", "Waiting in the queue"],
             ["processing", "Transcription is running"],
-            ["done", "Complete — text is in the response"],
-            ["failed", "Transcription failed — partial results may still be present"],
+            ["done", "Complete, text is in the response"],
+            ["failed", "Transcription failed, partial results may still be present"],
           ]}
         />
         <Code lang="json">
@@ -76,7 +76,7 @@ print(result.text)`}
         </Code>
       </Section>
 
-      <Section title="Status — not yet wired">
+      <Section title="Status, not yet wired">
         <Callout variant="warning">
           The async job API routes are defined in the OpenAPI spec and return <IC>501</IC> today.
           They are listed here so you can design your integration now and swap in the live

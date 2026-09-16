@@ -7,7 +7,7 @@ export default function Errors() {
       title="Errors & Retries"
       description="How to read failures and when to retry."
       prev={{ label: "Authentication & Keys", to: "/docs/authentication" }}
-      next={{ label: "Understand — Overview", to: "/docs/understand-overview" }}
+      next={{ label: "Understand, Overview", to: "/docs/understand-overview" }}
     >
       <Section title="Error body">
         <Code lang="json">

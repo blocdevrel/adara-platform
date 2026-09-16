@@ -46,7 +46,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "The language catalog is the endpoint worth reading. It returns a per-language status — planned, experimental, research, beta, or production — instead of a flat supported boolean. A language appearing in the catalog is not a claim that it works, and the shape of the response is designed so nobody can read it that way.",
+        text: "The language catalog is the endpoint worth reading. It returns a per-language status, planned, experimental, research, beta, or production, instead of a flat supported boolean. A language appearing in the catalog is not a claim that it works, and the shape of the response is designed so nobody can read it that way.",
       },
       {
         type: "h2",
@@ -78,7 +78,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "That spread is the whole argument. Whisper has no Twi; MMS does. Seven languages — Setswana, Sesotho, Swati, Dagbani, Ga, Venda, and Southern Ndebele, about 34 million speakers between them — are reached by neither general backend, and for some of them a Ghanaian community-released model is the only route that exists.",
+        text: "That spread is the whole argument. Whisper has no Twi; MMS does. Seven languages, Setswana, Sesotho, Swati, Dagbani, Ga, Venda, and Southern Ndebele, about 34 million speakers between them, are reached by neither general backend, and for some of them a Ghanaian community-released model is the only route that exists.",
       },
       {
         type: "h2",
@@ -90,7 +90,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "Nothing is auto-registered. With no backend registered the pipeline still runs its offline layers — audio validation, quality checks, normalization, code-switch detection — and reports that it ran interface-only rather than pretending otherwise. The library never quietly reaches for a model you did not choose.",
+        text: "Nothing is auto-registered. With no backend registered the pipeline still runs its offline layers, audio validation, quality checks, normalization, code-switch detection, and reports that it ran interface-only rather than pretending otherwise. The library never quietly reaches for a model you did not choose.",
       },
       {
         type: "p",
@@ -105,7 +105,7 @@ export const NEWS_POSTS: NewsPost[] = [
     title:
       "SpeechBench scores backends per language, and commits nothing",
     excerpt:
-      "Real recordings — FLEURS where it has the language, Ghanaian community corpora where it does not — with every result carrying the corpus's exact commit SHA.",
+      "Real recordings, FLEURS where it has the language, Ghanaian community corpora where it does not, with every result carrying the corpus's exact commit SHA.",
     label: "Corpus",
     image: "/assets/news-corpus.svg",
     imagePosition: "center",
@@ -118,7 +118,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "FLEURS has no Twi. Where it has no coverage for a language, the harness pulls community-released Ghanaian corpora instead, and every result carries the corpus's exact commit SHA — so any score can be traced back to the specific audio that produced it.",
+        text: "FLEURS has no Twi. Where it has no coverage for a language, the harness pulls community-released Ghanaian corpora instead, and every result carries the corpus's exact commit SHA, so any score can be traced back to the specific audio that produced it.",
       },
       {
         type: "h2",
@@ -130,7 +130,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "The recorded limitations carry as much weight as the score. These corpora are read or prompted speech — not spontaneous conversation, and not the noisy market, farm, and street conditions Adara is built for. A good word error rate here is not a promise about a trader's phone in a crowded market.",
+        text: "The recorded limitations carry as much weight as the score. These corpora are read or prompted speech, not spontaneous conversation, and not the noisy market, farm, and street conditions Adara is built for. A good word error rate here is not a promise about a trader's phone in a crowded market.",
       },
       {
         type: "h2",
@@ -138,7 +138,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "Of the 36 languages in the registry, the number verified by Adara measurement is zero. Every coverage figure we publish is a vendor's list entry, which is a claim and not a result. Early benchmark runs are small and stay internal until they are large enough to mean something — this feed will not report a claim as a measurement.",
+        text: "Of the 36 languages in the registry, the number verified by Adara measurement is zero. Every coverage figure we publish is a vendor's list entry, which is a claim and not a result. Early benchmark runs are small and stay internal until they are large enough to mean something, this feed will not report a claim as a measurement.",
       },
     ],
   },
@@ -149,7 +149,7 @@ export const NEWS_POSTS: NewsPost[] = [
     title:
       "Audio decoding is the trust boundary, so that is where the checks live",
     excerpt:
-      "Adara Speech has no listener of its own, but it is written against the hosted case — path confinement, container limits, and model-identifier allowlists exist before the service does.",
+      "Adara Speech has no listener of its own, but it is written against the hosted case, path confinement, container limits, and model-identifier allowlists exist before the service does.",
     label: "Security",
     image: "/assets/news-security.svg",
     imagePosition: "center",
@@ -158,7 +158,7 @@ export const NEWS_POSTS: NewsPost[] = [
     body: [
       {
         type: "p",
-        text: "Every decode in Adara Speech goes through a single load function, and every path through a single resolver. They resolve symlinks before checking the permitted roots, reject anything that is not a regular file, and enforce size, duration, and channel limits read from the container header — before any decoding starts.",
+        text: "Every decode in Adara Speech goes through a single load function, and every path through a single resolver. They resolve symlinks before checking the permitted roots, reject anything that is not a regular file, and enforce size, duration, and channel limits read from the container header, before any decoding starts.",
       },
       {
         type: "p",
@@ -182,7 +182,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "Both optional model backends allowlist their model identifier. Loading a checkpoint runs code from its source, and the identifier is settable from the environment — which makes it an input, and inputs get allowlisted.",
+        text: "Both optional model backends allowlist their model identifier. Loading a checkpoint runs code from its source, and the identifier is settable from the environment, which makes it an input, and inputs get allowlisted.",
       },
     ],
   },
@@ -210,7 +210,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "Yoruba-accented English is the largest slice at roughly 45 hours across 683 speakers, with Igbo, Hausa, and Swahili accents behind it. Twi has 4 hours from 22 speakers — enough to establish that the accent is attested, nowhere near enough to publish a number about it.",
+        text: "Yoruba-accented English is the largest slice at roughly 45 hours across 683 speakers, with Igbo, Hausa, and Swahili accents behind it. Twi has 4 hours from 22 speakers, enough to establish that the accent is attested, nowhere near enough to publish a number about it.",
       },
       {
         type: "h2",
@@ -229,7 +229,7 @@ export const NEWS_POSTS: NewsPost[] = [
     title:
       "Speech synthesis lands for 18 African languages",
     excerpt:
-      "A real TTS backend covering 18 of the 36 languages in the registry — Twi, Nigerian Pidgin, and Yoruba among them — registered the same explicit way as everything else.",
+      "A real TTS backend covering 18 of the 36 languages in the registry, Twi, Nigerian Pidgin, and Yoruba among them, registered the same explicit way as everything else.",
     label: "Models",
     image: "/assets/news-models-swahili.svg",
     imagePosition: "center",
@@ -238,7 +238,7 @@ export const NEWS_POSTS: NewsPost[] = [
     body: [
       {
         type: "p",
-        text: "Text-to-speech now has a real backend behind the interface. It covers 18 of the registry's 36 languages, including Twi, Nigerian Pidgin, Yoruba, Hausa, Swahili, Amharic, Luganda, and Kinyarwanda — the languages where voice output is the difference between a usable product and an unusable one.",
+        text: "Text-to-speech now has a real backend behind the interface. It covers 18 of the registry's 36 languages, including Twi, Nigerian Pidgin, Yoruba, Hausa, Swahili, Amharic, Luganda, and Kinyarwanda, the languages where voice output is the difference between a usable product and an unusable one.",
       },
       {
         type: "p",
@@ -250,7 +250,7 @@ export const NEWS_POSTS: NewsPost[] = [
       },
       {
         type: "p",
-        text: "18 of 36 means 18 are not. Voice output for the rest is not solved by this, and naming the gap is more useful than rounding it up — the languages with no synthesis are disproportionately the ones with no transcription either.",
+        text: "18 of 36 means 18 are not. Voice output for the rest is not solved by this, and naming the gap is more useful than rounding it up, the languages with no synthesis are disproportionately the ones with no transcription either.",
       },
       {
         type: "p",

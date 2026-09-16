@@ -453,7 +453,7 @@
     }
   }
 
-  /* Security bento visual — 3D padlock */
+  /* Security bento visual, 3D padlock */
 
   .lock-scene {
     perspective: 640px;

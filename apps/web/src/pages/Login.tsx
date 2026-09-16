@@ -18,7 +18,7 @@ export default function Login() {
   return (
     <AuthShell
       title="Sign in to Adara"
-      description="Accounts aren’t live yet. Click any field to see what’s coming — or join the waitlist below."
+      description="Accounts aren’t live yet. Click any field to see what’s coming, or join the waitlist below."
       alternateLink={{
         prompt: "Want early access?",
         label: "Join the waitlist",
@@ -54,7 +54,7 @@ export default function Login() {
         type="email"
         readOnly
         placeholder="Coming soon"
-        aria-label="Email — coming soon"
+        aria-label="Email, coming soon"
         onFocus={(e) => {
           e.target.blur();
           showSoon("Email sign-in");
@@ -65,7 +65,7 @@ export default function Login() {
         type="password"
         readOnly
         placeholder="Coming soon"
-        aria-label="Password — coming soon"
+        aria-label="Password, coming soon"
         onFocus={(e) => {
           e.target.blur();
           showSoon("Password sign-in");
@@ -77,7 +77,7 @@ export default function Login() {
         onClick={() => showSoon("Email sign-in")}
         className={authSoonButtonClassName}
       >
-        Continue with email — coming soon
+        Continue with email, coming soon
       </button>
 
       <div className="pt-4">

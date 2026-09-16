@@ -49,7 +49,7 @@ export default function AgentSessions() {
         <p>
           The session tracks a <em>settled language</em>. Once a language is detected with
           sufficient confidence, it is remembered for the rest of the session. Short utterances
-          that the language detector abstains on still inherit the settled language — preventing
+          that the language detector abstains on still inherit the settled language, preventing
           short "yes / no" replies from resetting the session to Unknown.
         </p>
         <p>
@@ -61,7 +61,7 @@ export default function AgentSessions() {
             ["client", "Passed explicitly by the caller on session creation"],
             ["detected", "Detected by the language model from a turn"],
             ["inherited", "Carried over from a previous turn because the current turn abstained"],
-            ["pending", "Not yet determined — session was just created"],
+            ["pending", "Not yet determined, session was just created"],
           ]}
         />
       </Section>

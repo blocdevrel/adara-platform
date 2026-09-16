@@ -13,7 +13,7 @@ export default function Quickstart() {
       <Section title="Prerequisites">
         <ul className="list-disc pl-5 space-y-1">
           <li>An Adara account</li>
-          <li>A server that can keep your API key secret — never a browser or mobile app</li>
+          <li>A server that can keep your API key secret, never a browser or mobile app</li>
         </ul>
       </Section>
 
@@ -61,7 +61,7 @@ curl -s ${API_BASE}/v1/understand \\
 }`}
         </Code>
         <p>
-          Route on <IC>concepts</IC> — stable IDs — not on the raw wording of the utterance.
+          Route on <IC>concepts</IC>, stable IDs, not on the raw wording of the utterance.
         </p>
       </Section>
 

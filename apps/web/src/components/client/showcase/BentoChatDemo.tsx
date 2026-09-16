@@ -6,7 +6,7 @@ const slides = [
   {
     question: "What does this Twi idiom mean for users?",
     answer:
-      "Adara maps proverb-level intent to product copy — not literal word-for-word translation.",
+      "Adara maps proverb-level intent to product copy, not literal word-for-word translation.",
   },
   {
     question: "Why do mobile-money scams look different in Ghana?",

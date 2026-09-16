@@ -20,7 +20,7 @@ export default function UnderstandText() {
         />
       </Section>
 
-      <Section title="Example — Nigerian Pidgin">
+      <Section title="Example, Nigerian Pidgin">
         <Code lang="bash">
 {`curl -s https://api.adara.ai/v1/understand \\
   -H "Authorization: Bearer $ADARA_API_KEY" \\
@@ -56,7 +56,7 @@ export default function UnderstandText() {
         </Code>
       </Section>
 
-      <Section title="Example — Twi (Ghana)">
+      <Section title="Example, Twi (Ghana)">
         <Code lang="bash">
 {`curl -s https://api.adara.ai/v1/understand \\
   -H "Authorization: Bearer $ADARA_API_KEY" \\
@@ -73,7 +73,7 @@ print(meaning.language)    # "pcm"
 print(meaning.concepts)    # ["electricity_utility", "agent_banking"]
 
 for w in meaning.warnings():
-    print("Adara:", w)     # log these — do not drop them
+    print("Adara:", w)     # log these, do not drop them
 
 # Route on stable concept IDs, not gloss text
 if "electricity_utility" in meaning.concepts:
@@ -96,7 +96,7 @@ if (meaning.concepts.includes('electricity_utility')) {
 
       <Section title="Handling interface_only">
         <Callout variant="info">
-          If <IC>status</IC> is <IC>interface_only</IC>, only the heuristic language detector ran —
+          If <IC>status</IC> is <IC>interface_only</IC>, only the heuristic language detector ran , 
           no backend was registered. You still get a <IC>language</IC> field but no resolved
           concepts. Show a badge to your users, not an error.
         </Callout>

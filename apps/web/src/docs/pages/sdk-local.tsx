@@ -4,7 +4,7 @@ export default function SdkLocal() {
   return (
     <DocPage
       title="Offline mode"
-      description="Run understanding without calling the hosted API — useful for tests and air-gapped setups."
+      description="Run understanding without calling the hosted API, useful for tests and air-gapped setups."
       prev={{ label: "JavaScript SDK", to: "/docs/sdk-javascript" }}
       next={{ label: "Testing", to: "/docs/sdk-testing" }}
     >

@@ -102,7 +102,7 @@ export function Footer() {
                 info@adara.ai
                 <ArrowUpRight className="h-3.5 w-3.5" />
               </a>
-              <p className="text-sm text-white/50">Accra · Lagos · Nairobi</p>
+              <p className="text-sm text-white/50">Accra, Lagos, Nairobi</p>
             </div>
           </div>
 

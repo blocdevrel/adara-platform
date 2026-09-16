@@ -18,10 +18,10 @@ export default function NewsPost() {
 
   useEffect(() => {
     document.title = post
-      ? `${post.title} — Adara`
-      : "News — Adara";
+      ? `${post.title} | Adara`
+      : "News | Adara";
     return () => {
-      document.title = "Adara — Data and tools that make AI understand Africa";
+      document.title = "Adara, Data and tools that make AI understand Africa";
     };
   }, [post]);
 

@@ -54,8 +54,8 @@ export default function Signup() {
       <input
         type="email"
         readOnly
-        placeholder="Work email — coming soon"
-        aria-label="Work email — coming soon"
+        placeholder="Work email, coming soon"
+        aria-label="Work email, coming soon"
         onFocus={(e) => {
           e.target.blur();
           showSoon("Email sign-up");
@@ -65,8 +65,8 @@ export default function Signup() {
       <input
         type="text"
         readOnly
-        placeholder="Company name — coming soon"
-        aria-label="Company name — coming soon"
+        placeholder="Company name, coming soon"
+        aria-label="Company name, coming soon"
         onFocus={(e) => {
           e.target.blur();
           showSoon("Account creation");
@@ -76,8 +76,8 @@ export default function Signup() {
       <textarea
         readOnly
         rows={4}
-        placeholder="What are you building? — coming soon"
-        aria-label="Use case — coming soon"
+        placeholder="What are you building?, coming soon"
+        aria-label="Use case, coming soon"
         onFocus={(e) => {
           e.target.blur();
           showSoon("Pilot applications");
@@ -89,7 +89,7 @@ export default function Signup() {
         onClick={() => showSoon("Account creation")}
         className={authSoonButtonClassName}
       >
-        Continue with email — coming soon
+        Continue with email, coming soon
       </button>
 
       <div className="pt-4">

@@ -60,7 +60,7 @@ export default function SttLanguages() {
         <p>
           The <IC>asr_quality</IC> field on the language catalog reflects WER (Word Error Rate)
           measured on held-out community audio. Lower is better. Where a language is listed without
-          a quality score, it is <strong>interface_only</strong> — the route exists but returns
+          a quality score, it is <strong>interface_only</strong>, the route exists but returns
           501.
         </p>
       </Section>

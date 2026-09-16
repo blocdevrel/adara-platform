@@ -40,7 +40,7 @@ type PartnerLogoMarqueeProps = {
   className?: string;
 };
 
-/** Infinite logo strip — logos only, no heading copy. */
+/** Infinite logo strip, logos only, no heading copy. */
 export function PartnerLogoMarquee({ className }: PartnerLogoMarqueeProps) {
   return (
     <section className={cn("relative z-10 py-8 sm:py-9", className)} aria-label="Partner logos">

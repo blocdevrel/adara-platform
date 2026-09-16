@@ -49,12 +49,12 @@ event: turn.replied`}
           React Native does not ship an <IC>EventSource</IC> implementation. The{" "}
           <IC>agent.subscribe()</IC> function in <IC>src/lib/api.ts</IC> detects this and
           falls back to 1200 ms polling automatically. Both paths deliver the same turn
-          summaries — the only difference is latency.
+          summaries, the only difference is latency.
         </p>
         <Code lang="typescript">
 {`// From src/lib/api.ts
 const unsubscribe = agent.subscribe(sessionId, (turn) => {
-  // Called on every turn update — works on both web (SSE) and React Native (polling)
+  // Called on every turn update, works on both web (SSE) and React Native (polling)
   setTurns((prev) => updateOrAppend(prev, turn));
   if (turn.status === 'replied' && turn.reply?.text) {
     speakReply(turn.reply.text, turn.meaning?.language);
@@ -67,7 +67,7 @@ return () => unsubscribe();`}
         <Callout variant="info">
           On Expo Web (browser), the real <IC>EventSource</IC> is used and updates arrive within
           milliseconds. On Expo Go (phone), polling fires every 1200 ms. Both are correct
-          behaviour — design your UI to handle either latency.
+          behaviour, design your UI to handle either latency.
         </Callout>
       </Section>
     </DocPage>

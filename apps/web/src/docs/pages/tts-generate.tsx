@@ -13,7 +13,7 @@ export default function TtsGenerate() {
         <Table
           headers={["Field", "Type", "Required", "Description"]}
           rows={[
-            ["text", "string", "Yes", "The text to synthesise. Plain text — no SSML."],
+            ["text", "string", "Yes", "The text to synthesise. Plain text, no SSML."],
             ["language", "string", "Yes", "ISO 639-3 code (e.g. tw, pcm, sw)."],
             ["locale", "string", "No", "Regional hint (e.g. GH, NG) to select accent when multiple accents exist for a language."],
           ]}
@@ -56,7 +56,7 @@ print('Saved reply.wav')
         />
         <Callout variant="info">
           When <IC>synthesize: false</IC> appears in <IC>GET /v1/health</IC>, this route returns{" "}
-          <IC>501 not_implemented_error</IC>. Skip playback silently — the text is already shown.
+          <IC>501 not_implemented_error</IC>. Skip playback silently, the text is already shown.
         </Callout>
       </Section>
 

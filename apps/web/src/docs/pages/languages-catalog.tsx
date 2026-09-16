@@ -4,7 +4,7 @@ export default function LanguagesCatalog() {
   return (
     <DocPage
       title="Languages Catalog"
-      description="GET /v1/languages — what Adara targets and what is actually installed."
+      description="GET /v1/languages, what Adara targets and what is actually installed."
       prev={{ label: "Health Check", to: "/docs/health" }}
       next={{ label: "Models Catalog", to: "/docs/models-catalog" }}
     >

@@ -5,7 +5,7 @@ export default function Introduction() {
   return (
     <DocPage
       title="Introduction"
-      description="African speech, language, and context — as APIs you can call from your backend."
+      description="African speech, language, and context, as APIs you can call from your backend."
       next={{ label: "What's New", to: "/docs/whats-new" }}
     >
       <Section title="What Adara does">
@@ -41,7 +41,7 @@ export default function Introduction() {
           <DocCard
             to="/docs/context-resolve"
             title="Context"
-            description="Resolve local terms — momo, NEPA, trotro — with a gloss and confidence."
+            description="Resolve local terms, momo, NEPA, trotro, with a gloss and confidence."
           />
           <DocCard
             to="/docs/agent-overview"
@@ -56,7 +56,7 @@ export default function Introduction() {
           headers={["Capability", "What it means for you"]}
           rows={[
             ["African accents", "Recognition tuned for West and East African speech, not only studio English."],
-            ["Code-switching", "Handles mixed utterances — Twi–English, Pidgin–Yoruba, and similar."],
+            ["Code-switching", "Handles mixed utterances, Twi-English, Pidgin-Yoruba, and similar."],
             ["Local meaning", "Not only words: concepts you can route on in your product."],
             ["Honest results", "Warnings and a provisional flag when knowledge is still being reviewed."],
           ]}

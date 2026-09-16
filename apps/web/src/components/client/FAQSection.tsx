@@ -8,7 +8,7 @@ import {
 const faqs = [
   {
     q: "What is Adara?",
-    a: "Adara builds AI for African languages and context — corpus, models, API, and products that help any application understand local languages, culture, and daily life.",
+    a: "Adara builds AI for African languages and context, corpus, models, API, and products that help any application understand local languages, culture, and daily life.",
   },
   {
     q: "How does the Context API work?",

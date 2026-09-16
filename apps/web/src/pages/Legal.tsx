@@ -11,9 +11,9 @@ function LegalPage({
   children: ReactNode;
 }) {
   useEffect(() => {
-    document.title = `${title} — Adara`;
+    document.title = `${title} | Adara`;
     return () => {
-      document.title = "Adara — Data and tools that make AI understand Africa";
+      document.title = "Adara, Data and tools that make AI understand Africa";
     };
   }, [title]);
 

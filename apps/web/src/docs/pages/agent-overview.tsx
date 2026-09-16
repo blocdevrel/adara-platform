@@ -3,7 +3,7 @@ import { DocPage, Section, Code, Callout, Table, DocCard, IC } from "../DocProse
 export default function AgentOverview() {
   return (
     <DocPage
-      title="Voice Agent API — Overview"
+      title="Voice Agent API, Overview"
       description="Session-based voice conversations. Create a session, submit turns, stream live progress."
       prev={{ label: "Context Coverage", to: "/docs/context-coverage" }}
       next={{ label: "Sessions", to: "/docs/agent-sessions" }}
@@ -15,7 +15,7 @@ export default function AgentOverview() {
         <ul className="list-disc pl-5 space-y-1 text-sm">
           <li>Creates a session (locale, language, turn history).</li>
           <li>Accepts text or audio turns.</li>
-          <li>Returns a grounded reply from what was understood — not a generative chat model.</li>
+          <li>Returns a grounded reply from what was understood, not a generative chat model.</li>
           <li>Streams turn progress over SSE.</li>
         </ul>
         <Callout variant="tip">
@@ -33,7 +33,7 @@ export default function AgentOverview() {
             ["DELETE", "/v1/agent/sessions/:id", "End a session"],
             ["POST", "/v1/agent/sessions/:id/turns", "Submit a text or audio turn"],
             ["GET", "/v1/agent/sessions/:id/turns/:tid", "Fetch one turn (with full provenance)"],
-            ["GET", "/v1/agent/sessions/:id/events", "SSE stream — live turn progress"],
+            ["GET", "/v1/agent/sessions/:id/events", "SSE stream, live turn progress"],
           ]}
         />
       </Section>
@@ -53,12 +53,12 @@ failed     → something went wrong; error carries recoverable flag`}
 
       <Section title="Grounded replies">
         <p>
-          Replies are assembled from what was resolved — not generated. The reply text is
+          Replies are assembled from what was resolved, not generated. The reply text is
           constructed from the matched concepts and their glosses, using a template policy. This
           means:
         </p>
         <ul className="list-disc pl-5 space-y-1 text-sm">
-          <li>Every sentence in the reply points at a resolved concept — no hallucination.</li>
+          <li>Every sentence in the reply points at a resolved concept, no hallucination.</li>
           <li>The <IC>grounded_on</IC> field lists the concepts the reply used.</li>
           <li>When nothing was resolved, the agent says so honestly.</li>
         </ul>

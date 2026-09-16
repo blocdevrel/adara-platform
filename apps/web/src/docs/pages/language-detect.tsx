@@ -39,7 +39,7 @@ export default function LanguageDetect() {
         </Code>
         <Callout variant="info">
           When <IC>abstained: true</IC>, no language scored above the confidence threshold. This
-          is an honest answer — do not treat it as an error. The session language (if settled) is
+          is an honest answer, do not treat it as an error. The session language (if settled) is
           a better signal.
         </Callout>
       </Section>

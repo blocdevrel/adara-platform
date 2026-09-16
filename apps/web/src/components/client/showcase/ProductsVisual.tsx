@@ -11,7 +11,7 @@ const CYCLE_MS = 4200;
 
 type VisualProps = { accent: string };
 
-/* Corpus — annotation spans lighting up across lines of text */
+/* Corpus, annotation spans lighting up across lines of text */
 const corpusRows = [
   [38, 22, 54, 30],
   [26, 46, 20, 40, 28],
@@ -37,13 +37,13 @@ function CorpusVisual({ accent }: VisualProps) {
         className="px-rise mt-1 font-mono text-[10px] text-white/45"
         style={{ animationDelay: "420ms" }}
       >
-        4 languages · 12.4k spans
+        4 languages, 12.4k spans
       </p>
     </div>
   );
 }
 
-/* Models — eval scores filling in */
+/* Models, eval scores filling in */
 const modelScores = [
   { name: "Twi-7B", score: 92 },
   { name: "Yoruba-Speech", score: 88 },
@@ -75,7 +75,7 @@ function ModelsVisual({ accent }: VisualProps) {
   );
 }
 
-/* Context API — a request typing out, then the response */
+/* Context API, a request typing out, then the response */
 const requestLines = ["POST /v1/context", "{ locale: \"sw-KE\",", "  domain: \"agriculture\" }"];
 
 function ContextVisual({ accent }: VisualProps) {
@@ -96,13 +96,13 @@ function ContextVisual({ accent }: VisualProps) {
         style={{ borderColor: `${accent}59`, color: accent, animationDelay: "620ms" }}
       >
         <span className="h-1 w-1 rounded-full" style={{ background: accent }} />
-        200 · 41ms
+        200, 41ms
       </span>
     </div>
   );
 }
 
-/* Transcribe — waveform playback with the caption streaming out */
+/* Transcribe, waveform playback with the caption streaming out */
 const caption = "Mvua imenyesha vizuri msimu huu.";
 
 function TranscribeVisual({ accent }: VisualProps) {
@@ -133,8 +133,8 @@ function TranscribeVisual({ accent }: VisualProps) {
   );
 }
 
-/* Agents — a pipeline with a pulse running down the rail */
-const agentSteps = ["retrieve · corpus", "tool · translate", "eval · gate"];
+/* Agents, a pipeline with a pulse running down the rail */
+const agentSteps = ["retrieve, corpus", "tool, translate", "eval, gate"];
 
 function AgentsVisual({ accent }: VisualProps) {
   return (

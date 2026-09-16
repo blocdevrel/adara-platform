@@ -12,7 +12,7 @@ const ALL_CLIPS = [
     locale: "sw-KE",
     stamp: "00:12",
     speech: "Mvua imenyesha vizuri msimu huu, mahindi yamestawi.",
-    gloss: "Rain has fallen well this season — the maize has thrived.",
+    gloss: "Rain has fallen well this season, the maize has thrived.",
   },
   {
     locale: "tw-GH",

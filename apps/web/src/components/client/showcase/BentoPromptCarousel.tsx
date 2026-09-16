@@ -9,7 +9,7 @@ const prompts = [
   },
   {
     title: "Why is code-switching common in Lagos?",
-    body: "Yoruba, Pidgin, and English blend in commerce — models need multi-register context.",
+    body: "Yoruba, Pidgin, and English blend in commerce, models need multi-register context.",
   },
   {
     title: "What makes a good African speech corpus?",

@@ -10,9 +10,9 @@ export default function News() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "News — Adara";
+    document.title = "News | Adara";
     return () => {
-      document.title = "Adara — Data and tools that make AI understand Africa";
+      document.title = "Adara, Data and tools that make AI understand Africa";
     };
   }, []);
 
@@ -39,7 +39,7 @@ export default function News() {
                 <span className="text-gray-out"> from the lab.</span>
               </h1>
               <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Models, corpus, APIs, and security — updates as we ship.
+                Models, corpus, APIs, and security, updates as we ship.
               </p>
             </div>
 

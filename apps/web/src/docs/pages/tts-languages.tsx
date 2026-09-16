@@ -29,7 +29,7 @@ export default function TtsLanguages() {
       <Section title="Supported languages">
         <Callout variant="info">
           TTS coverage is a subset of STT coverage. A language that can be transcribed cannot
-          always be synthesised — the synthesis model needs its own training data. Check{" "}
+          always be synthesised, the synthesis model needs its own training data. Check{" "}
           <IC>GET /v1/languages?capability=synthesize</IC> for the live list.
         </Callout>
         <Table

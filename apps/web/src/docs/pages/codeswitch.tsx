@@ -4,7 +4,7 @@ export default function Codeswitch() {
   return (
     <DocPage
       title="Code-switching"
-      description="When a speaker moves between two languages in one sentence — Adara detects it."
+      description="When a speaker moves between two languages in one sentence, Adara detects it."
       prev={{ label: "Understand Audio", to: "/docs/understand-audio" }}
       next={{ label: "Provisional & Warnings", to: "/docs/provisional" }}
     >
@@ -15,9 +15,9 @@ export default function Codeswitch() {
           daily speech:
         </p>
         <ul className="list-disc pl-5 space-y-1 text-sm">
-          <li><strong>Twi–English (GH):</strong> "Chale, I want to go to the market, na bus no baa"</li>
-          <li><strong>Pidgin–Yoruba (NG):</strong> "Abeg, oya collect the owo"</li>
-          <li><strong>Swahili–English (KE):</strong> "Nitakutext later, tukubaliane hapa"</li>
+          <li><strong>Twi-English (GH):</strong> "Chale, I want to go to the market, na bus no baa"</li>
+          <li><strong>Pidgin-Yoruba (NG):</strong> "Abeg, oya collect the owo"</li>
+          <li><strong>Swahili-English (KE):</strong> "Nitakutext later, tukubaliane hapa"</li>
         </ul>
         <p>
           Systems that only detect one dominant language per utterance fail these speakers. Adara

@@ -49,14 +49,14 @@ export default function SttUploadSync() {
           rows={[
             ["text", "The transcript"],
             ["language", "Detected or confirmed language code"],
-            ["confidence", "Model confidence (0–1). Never reaches 1.0 — see honesty rules."],
+            ["confidence", "Model confidence (0-1). Never reaches 1.0, see honesty rules."],
             ["provisional", "true = knowledge pack not yet reviewed by a native speaker. Surface this."],
             ["status", "ok / interface_only / partial"],
             ["stages", "Which model backend ran and what it detected"],
           ]}
         />
         <Callout variant="info">
-          <IC>provisional: true</IC> does not mean the transcript is wrong — it means the knowledge
+          <IC>provisional: true</IC> does not mean the transcript is wrong, it means the knowledge
           pack behind any context resolution was assembled from secondary sources. Always surface it.
         </Callout>
       </Section>
